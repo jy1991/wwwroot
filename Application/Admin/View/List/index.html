@@ -1,0 +1,53 @@
+<extend name="Layout/index" />
+<block name="breadcrumb">
+	<li>
+		<i class="icon-home home-icon"></i>
+		<a href="#">首页</a>
+	</li>
+	<li class="active">分类管理</li>
+</block>
+
+<block name="page_header">
+	<h1>
+		分类管理
+		<small>
+			<i class="icon-double-angle-right"></i>
+			 分类列表
+		</small>
+	</h1>
+</block>
+<block name='main_content'>
+	<style>
+    th,td{text-align: center;}
+	</style>
+	<script type="text/javascript" src="__PUBLIC__/Dist/js/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Dist/css/pagination.css">
+		<table class="table table-striped table-bordered table-hover">
+			<thead>
+			 <tr>
+				<th>id</th>
+				<th>分类名</th>
+				<th>级别</th>
+				<th>状态</th>
+				<th>操作</th>
+			 </tr>
+			</thead>
+			<tbody>
+			<volist name="list" id="vo">
+				<tr>
+					<td><{$vo.id}></td>
+					<td style="text-align:left"><{$vo.html}><{$vo.name}></td>
+					<td><?php echo $vo['level']+1 ?> 级分类</td>
+					<td><?php echo $vo['display']==1?'正常':'关闭' ?>
+					<td>
+						<a href="<{:U('List/delete', array('id'=>$vo['id']))}>" class="btn btn-danger">删除</a>
+						<a href="<{:U('List/edit', array('id'=>$vo['id']))}>" class="btn btn-success">修改</a>
+						<a href="<{:U('List/add', array('pid'=>$vo['id']))}>" class="btn btn-warning">添加子分类</a>
+					</td>
+				</tr>
+			</volist>
+			</tbody>
+			
+		
+		</table>
+</block>

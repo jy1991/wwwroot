@@ -1,0 +1,186 @@
+insert into huawei_admin(admin_user,admin_pass,name,phone,permission,addtime) values('admin16',md5('admin'),'纪程瀚',18521566916,3,unix_timestamp());
+insert into huawei_admin(admin_user,admin_pass,name,phone,permission,addtime) values('admin17',md5('admin'),'纪程瀚',18521566916,3,unix_timestamp());
+insert into huawei_admin(admin_user,admin_pass,name,phone,permission,addtime) values('admin18',md5('admin'),'纪程瀚',18521566916,3,unix_timestamp());
+insert into huawei_admin(admin_user,admin_pass,name,phone,permission,addtime) values('admin19',md5('admin'),'纪程瀚',18521566916,3,unix_timestamp());
+insert into huawei_admin(admin_user,admin_pass,name,phone,permission,addtime) values('admin20',md5('admin'),'纪程瀚',18521566916,3,unix_timestamp());
+insert into huawei_admin(admin_user,admin_pass,name,phone,permission,addtime) values('admin21',md5('admin'),'纪程瀚',18521566916,3,unix_timestamp());
+insert into huawei_admin(admin_user,admin_pass,name,phone,permission,addtime) values('admin22',md5('admin'),'纪程瀚',18521566916,3,unix_timestamp());
+insert into huawei_admin(admin_user,admin_pass,name,phone,permission,addtime) values('admin23',md5('admin'),'纪程瀚',18521566916,3,unix_timestamp());
+insert into huawei_admin(admin_user,admin_pass,name,phone,permission,addtime) values('admin24',md5('admin'),'纪程瀚',18521566916,3,unix_timestamp());
+insert into huawei_admin(admin_user,admin_pass,name,phone,permission,addtime) values('admin25',md5('admin'),'纪程瀚',18521566916,3,unix_timestamp());
+insert into huawei_admin(admin_user,admin_pass,name,phone,permission,addtime) values('admin26',md5('admin'),'纪程瀚',18521566916,3,unix_timestamp());
+insert into huawei_admin(admin_user,admin_pass,name,phone,permission,addtime) values('admin27',md5('admin'),'纪程瀚',18521566916,3,unix_timestamp());
+insert into huawei_admin(admin_user,admin_pass,name,phone,permission,addtime) values('admin28',md5('admin'),'纪程瀚',18521566916,3,unix_timestamp());
+insert into huawei_admin(admin_user,admin_pass,name,phone,permission,addtime) values('admin29',md5('admin'),'纪程瀚',18521566916,3,unix_timestamp());
+insert into huawei_admin(admin_user,admin_pass,name,phone,permission,addtime) values('admin30',md5('admin'),'纪程瀚',18521566916,3,unix_timestamp());
+insert into huawei_admin(admin_user,admin_pass,name,phone,permission,addtime) values('admin31',md5('admin'),'纪程瀚',18521566916,3,unix_timestamp());
+insert into huawei_admin(admin_user,admin_pass,name,phone,permission,addtime) values('admin32',md5('admin'),'纪程瀚',18521566916,3,unix_timestamp());
+insert into huawei_admin(admin_user,admin_pass,name,phone,permission,addtime) values('admin33',md5('admin'),'纪程瀚',18521566916,3,unix_timestamp());
+insert into huawei_admin(admin_user,admin_pass,name,phone,permission,addtime) values('admin34',md5('admin'),'纪程瀚',18521566916,3,unix_timestamp());
+insert into huawei_admin(admin_user,admin_pass,name,phone,permission,addtime) values('admin35',md5('admin'),'纪程瀚',18521566916,3,unix_timestamp());
+insert into huawei_admin(admin_user,admin_pass,name,phone,permission,addtime) values('admin36',md5('admin'),'纪程瀚',18521566916,3,unix_timestamp());
+insert into huawei_admin(admin_user,admin_pass,name,phone,permission,addtime) values('admin37',md5('admin'),'纪程瀚',18521566916,3,unix_timestamp());
+insert into huawei_admin(admin_user,admin_pass,name,phone,permission,addtime) values('admin38',md5('admin'),'纪程瀚',18521566916,3,unix_timestamp());
+
+insert into huawei_work(work_name,controller_name,do_name) values('查看管理员','Master','index');
+insert into huawei_work(work_name,controller_name,do_name) values('添加管理员','Master','add');
+insert into huawei_work(work_name,controller_name,do_name) values('删除管理员','Master','delete');
+insert into huawei_work(work_name,controller_name,do_name) values('修改管理员','Master','edit');
+insert into huawei_work(work_name,controller_name,do_name) values('修改密码','Master','pass');
+insert into huawei_work(work_name,controller_name,do_name) values('修改所有密码','Master','allpass');
+insert into huawei_work(work_name,controller_name,do_name) values('验证管理员名','Master','adminUser');
+insert into huawei_work(work_name,controller_name,do_name) values('验证管理员密码','Master','adminPass');
+insert into huawei_work(work_name,controller_name,do_name) values('分配角色','Master','rolelist');
+insert into huawei_work(work_name,controller_name,do_name) values('保存角色','Master','saverole');
+
+insert into huawei_work(work_name,controller_name,do_name) values('查看角色','Player','index');
+insert into huawei_work(work_name,controller_name,do_name) values('添加角色','Player','add');
+insert into huawei_work(work_name,controller_name,do_name) values('删除角色','Player','delete');
+insert into huawei_work(work_name,controller_name,do_name) values('修改角色','Player','edit');
+insert into huawei_work(work_name,controller_name,do_name) values('分配权限','Player','work');
+insert into huawei_work(work_name,controller_name,do_name) values('添加权限','Player','save');
+
+insert into huawei_work(work_name,controller_name,do_name) values('查看权限','Work','index');
+insert into huawei_work(work_name,controller_name,do_name) values('添加权限','Work','add');
+insert into huawei_work(work_name,controller_name,do_name) values('删除权限','Work','delete');
+insert into huawei_work(work_name,controller_name,do_name) values('修改权限','Work','edit');
+
+insert into huawei_work(work_name,controller_name,do_name) values('查看用户','User','index');
+insert into huawei_work(work_name,controller_name,do_name) values('删除用户','User','delete');
+insert into huawei_work(work_name,controller_name,do_name) values('屏蔽用户','User','display2');
+insert into huawei_work(work_name,controller_name,do_name) values('修改用户','User','edit');
+
+insert into huawei_work(work_name,controller_name,do_name) values('查看头像','Avatar','index');
+insert into huawei_work(work_name,controller_name,do_name) values('通过','Avatar','pass');
+insert into huawei_work(work_name,controller_name,do_name) values('不通过','Avatar','no_pass');
+insert into huawei_work(work_name,controller_name,do_name) values('删除头像','Avatar','delete');
+
+insert into huawei_work(work_name,controller_name,do_name) values('查看分类','List','index');
+insert into huawei_work(work_name,controller_name,do_name) values('添加分类','List','add');
+insert into huawei_work(work_name,controller_name,do_name) values('修改分类','List','edit');
+insert into huawei_work(work_name,controller_name,do_name) values('删除分类','List','delete');
+insert into huawei_work(work_name,controller_name,do_name) values('分类树','List','treeList');
+
+insert into huawei_work(work_name,controller_name,do_name) values('查看商品','Product','index');
+insert into huawei_work(work_name,controller_name,do_name) values('查看商品属性','Product','rolelist');
+insert into huawei_work(work_name,controller_name,do_name) values('设置属性值','Product','attrlist');
+insert into huawei_work(work_name,controller_name,do_name) values('保存属性值','Product','savelist');
+insert into huawei_work(work_name,controller_name,do_name) values('添加商品','Product','add');
+insert into huawei_work(work_name,controller_name,do_name) values('文本编辑器','Product','ueditor');
+insert into huawei_work(work_name,controller_name,do_name) values('删除商品','Product','delete');
+insert into huawei_work(work_name,controller_name,do_name) values('修改商品','Product','edit');
+insert into huawei_work(work_name,controller_name,do_name) values('商品图片管理','Product','images');
+insert into huawei_work(work_name,controller_name,do_name) values('删除图片','Product','del_img');
+insert into huawei_work(work_name,controller_name,do_name) values('修改图片','Product','edit_img');
+
+insert into huawei_work(work_name,controller_name,do_name) values('使用uploadify插件上传','Upload','uploadify');
+insert into huawei_work(work_name,controller_name,do_name) values('执行uploadify上传','Upload','uploadifyUpload');
+
+
+insert into huawei_work(work_name,controller_name,do_name) values('查看属性','Attribute','index');
+insert into huawei_work(work_name,controller_name,do_name) values('添加属性','Attribute','add');
+insert into huawei_work(work_name,controller_name,do_name) values('修改属性','Attribute','edit');
+insert into huawei_work(work_name,controller_name,do_name) values('删除属性','Attribute','delete');
+insert into huawei_work(work_name,controller_name,do_name) values('添加属性值','Attribute','add_value');
+insert into huawei_work(work_name,controller_name,do_name) values('编辑属性值','Attribute','edit_value');
+insert into huawei_work(work_name,controller_name,do_name) values('删除属性值','Attribute','del_value');
+
+insert into huawei_work(work_name,controller_name,do_name) values('查看订单','Order','index');
+insert into huawei_work(work_name,controller_name,do_name) values('删除订单','Order','delete');
+insert into huawei_work(work_name,controller_name,do_name) values('发货','Order','send');
+insert into huawei_work(work_name,controller_name,do_name) values('完成','Order','end');
+insert into huawei_work(work_name,controller_name,do_name) values('确认收货','Order','get');
+insert into huawei_work(work_name,controller_name,do_name) values('退款','Order','back');
+insert into huawei_work(work_name,controller_name,do_name) values('已评价','Order','comment');
+
+
+
+insert into huawei_player_work(player_id,work_id) values(2,1);
+insert into huawei_player_work(player_id,work_id) values(2,2);
+insert into huawei_player_work(player_id,work_id) values(2,3);
+insert into huawei_player_work(player_id,work_id) values(2,4);
+insert into huawei_player_work(player_id,work_id) values(2,5);
+insert into huawei_player_work(player_id,work_id) values(2,6);
+insert into huawei_player_work(player_id,work_id) values(2,7);
+insert into huawei_player_work(player_id,work_id) values(2,8);
+insert into huawei_player_work(player_id,work_id) values(2,9);
+insert into huawei_player_work(player_id,work_id) values(2,10);
+insert into huawei_player_work(player_id,work_id) values(2,11);
+insert into huawei_player_work(player_id,work_id) values(2,12);
+insert into huawei_player_work(player_id,work_id) values(2,13);
+insert into huawei_player_work(player_id,work_id) values(2,14);
+insert into huawei_player_work(player_id,work_id) values(2,15);
+
+insert into huawei_player_work(player_id,work_id) values(3,5);
+insert into huawei_player_work(player_id,work_id) values(3,16);
+insert into huawei_player_work(player_id,work_id) values(3,17);
+insert into huawei_player_work(player_id,work_id) values(3,18);
+insert into huawei_player_work(player_id,work_id) values(3,19);
+insert into huawei_player_work(player_id,work_id) values(3,20);
+insert into huawei_player_work(player_id,work_id) values(3,21);
+insert into huawei_player_work(player_id,work_id) values(3,22);
+insert into huawei_player_work(player_id,work_id) values(3,23);
+insert into huawei_player_work(player_id,work_id) values(3,24);
+insert into huawei_player_work(player_id,work_id) values(3,25);
+insert into huawei_player_work(player_id,work_id) values(3,26);
+insert into huawei_player_work(player_id,work_id) values(3,27);
+insert into huawei_player_work(player_id,work_id) values(3,28);
+insert into huawei_player_work(player_id,work_id) values(3,29);
+insert into huawei_player_work(player_id,work_id) values(3,30);
+insert into huawei_player_work(player_id,work_id) values(3,31);
+insert into huawei_player_work(player_id,work_id) values(3,32);
+insert into huawei_player_work(player_id,work_id) values(3,33);
+insert into huawei_player_work(player_id,work_id) values(3,34);
+insert into huawei_player_work(player_id,work_id) values(3,35);
+insert into huawei_player_work(player_id,work_id) values(3,36);
+insert into huawei_player_work(player_id,work_id) values(3,37);
+insert into huawei_player_work(player_id,work_id) values(3,38);
+insert into huawei_player_work(player_id,work_id) values(3,39);
+insert into huawei_player_work(player_id,work_id) values(3,40);
+insert into huawei_player_work(player_id,work_id) values(3,41);
+insert into huawei_player_work(player_id,work_id) values(3,42);
+insert into huawei_player_work(player_id,work_id) values(3,43);
+insert into huawei_player_work(player_id,work_id) values(3,44);
+insert into huawei_player_work(player_id,work_id) values(3,45);
+insert into huawei_player_work(player_id,work_id) values(3,46);
+insert into huawei_player_work(player_id,work_id) values(3,47);
+insert into huawei_player_work(player_id,work_id) values(3,48);
+insert into huawei_player_work(player_id,work_id) values(3,49);
+
+insert into huawei_player_work(player_id,work_id) values(4,5);
+insert into huawei_player_work(player_id,work_id) values(4,16);
+insert into huawei_player_work(player_id,work_id) values(4,17);
+insert into huawei_player_work(player_id,work_id) values(4,18);
+insert into huawei_player_work(player_id,work_id) values(4,19);
+
+insert into huawei_player_work(player_id,work_id) values(5,5);
+insert into huawei_player_work(player_id,work_id) values(5,20);
+insert into huawei_player_work(player_id,work_id) values(5,21);
+insert into huawei_player_work(player_id,work_id) values(5,22);
+insert into huawei_player_work(player_id,work_id) values(5,23);
+insert into huawei_player_work(player_id,work_id) values(5,24);
+insert into huawei_player_work(player_id,work_id) values(5,25);
+insert into huawei_player_work(player_id,work_id) values(5,26);
+insert into huawei_player_work(player_id,work_id) values(5,27);
+
+insert into huawei_player_work(player_id,work_id) values(6,5);
+insert into huawei_player_work(player_id,work_id) values(6,28);
+insert into huawei_player_work(player_id,work_id) values(6,29);
+insert into huawei_player_work(player_id,work_id) values(6,30);
+
+
+insert into huawei_player(player_id,player_name,`describe`) values(1,'超级管理员','拥有所有权限');
+insert into huawei_player(player_id,player_name,`describe`) values(2,'高级管理员','拥有管理员和角色权限');
+insert into huawei_player(player_id,player_name,`describe`) values(3,'普通管理员','拥有非管理权限');
+insert into huawei_player(player_id,player_name,`describe`) values(4,'用户管理员','拥有用户管理权限');
+insert into huawei_player(player_id,player_name,`describe`) values(5,'商品管理员','拥有商品管理权限');
+insert into huawei_player(player_id,player_name,`describe`) values(6,'订单管理员','拥有订单管理权限');
+insert into huawei_player(player_id,player_name,`describe`) values(7,'评价管理员','拥有评价管理权限');
+
+insert into huawei_list(name,pid,path) values('手机',0,'0,');
+insert into huawei_list(name,pid,path) values('平板 & 穿戴',0,'0,');
+insert into huawei_list(name,pid,path) values('智能家居',0,'0,');
+insert into huawei_list(name,pid,path) values('必备配件',0,'0,');
+insert into huawei_list(name,pid,path) values('基础配件',0,'0,');
+insert into huawei_list(name,pid,path) values('潮流配件',0,'0,');
+insert into huawei_list(name,pid,path) values('应用市场',0,'0,');

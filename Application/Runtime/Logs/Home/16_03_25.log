@@ -1,0 +1,2175 @@
+[ 2016-03-25T00:00:33+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002246s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0182s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000278s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000524s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001935s ]
+
+[ 2016-03-25T00:01:09+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003908s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0197s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0178s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000492s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038471s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038761s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001709s ]
+
+[ 2016-03-25T00:01:38+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004193s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0263s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0253s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000483s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002833s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003135s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003477s ]
+
+[ 2016-03-25T00:01:54+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002168s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0202s ]
+SQL: SHOW COLUMNS FROM `huawei_cart` [ RunTime:0.0164s ]
+SQL: SELECT * FROM `huawei_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `huawei_avatar` [ RunTime:0.0202s ]
+SQL: SELECT * FROM `huawei_avatar` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000381s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000612s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001012s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001208s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001423s ]
+
+[ 2016-03-25T00:02:02+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001397s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0177s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0174s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000372s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000720s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001572s ]
+
+[ 2016-03-25T00:02:29+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001704s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0251s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0265s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000395s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000763s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002136s ]
+
+[ 2016-03-25T00:02:36+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002765s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0292s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0236s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000381s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000749s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001718s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002162s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002496s ]
+
+[ 2016-03-25T00:02:46+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001720s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0182s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000355s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046647s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002544s ]
+
+[ 2016-03-25T00:03:02+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002303s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0215s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0219s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000285s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000942s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002390s ]
+
+[ 2016-03-25T00:12:12+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002144s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0217s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000490s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001334s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001671s ]
+
+[ 2016-03-25T00:14:32+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002122s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0183s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0167s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000277s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000513s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002769s ]
+
+[ 2016-03-25T00:14:41+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003158s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0238s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0188s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000277s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000539s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002761s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002965s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003525s ]
+
+[ 2016-03-25T00:18:29+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002680s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0176s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0171s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000265s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000497s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001890s ]
+
+[ 2016-03-25T00:19:00+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004128s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0249s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0245s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000423s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000790s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066416s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003042s ]
+
+[ 2016-03-25T00:19:43+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002840s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0263s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0236s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000393s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000690s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001990s ]
+
+[ 2016-03-25T00:21:21+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004731s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0207s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0199s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000301s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000564s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003428s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003722s ]
+
+[ 2016-03-25T00:21:22+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003316s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0216s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000540s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000924s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056265s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002780s ]
+
+[ 2016-03-25T00:21:37+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003760s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0212s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0192s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `huawei_address` (`person`,`phone`,`address`,`is_default`) VALUES ('纪程瀚','18521566916','上海闸北','0') [ RunTime:0.0684s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000369s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036610s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001722s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002193s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002407s ]
+
+[ 2016-03-25T00:21:38+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001541s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0187s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000476s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036126s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000969s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001932s ]
+
+[ 2016-03-25T00:23:17+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001331s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0179s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `huawei_address` (`person`,`phone`,`address`,`is_default`,`user_id`) VALUES ('纪程瀚','18521566916','上海闸北','0','1') [ RunTime:0.0313s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000605s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001338s ]
+
+[ 2016-03-25T00:23:18+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001418s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0174s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000550s ]
+NOTIC: [8] Undefined index: player_id D:\wamp\www\wwwroot\Application\Runtime\Cache\Home\929ce7e01bdc2735067bc2761c003306.php 第 341 行.
+NOTIC: [8] Undefined index: player_id D:\wamp\www\wwwroot\Application\Runtime\Cache\Home\929ce7e01bdc2735067bc2761c003306.php 第 342 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001887s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001910s ]
+
+[ 2016-03-25T00:23:58+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002130s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0167s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0168s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `huawei_address` (`person`,`phone`,`address`,`is_default`,`user_id`) VALUES ('纪程瀚','15651732599','江苏南京','1','1') [ RunTime:0.0205s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000428s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002775s ]
+
+[ 2016-03-25T00:23:59+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001609s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0185s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0194s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000478s ]
+NOTIC: [8] Undefined index: player_id D:\wamp\www\wwwroot\Application\Runtime\Cache\Home\929ce7e01bdc2735067bc2761c003306.php 第 341 行.
+NOTIC: [8] Undefined index: player_id D:\wamp\www\wwwroot\Application\Runtime\Cache\Home\929ce7e01bdc2735067bc2761c003306.php 第 342 行.
+NOTIC: [8] Undefined index: player_id D:\wamp\www\wwwroot\Application\Runtime\Cache\Home\929ce7e01bdc2735067bc2761c003306.php 第 341 行.
+NOTIC: [8] Undefined index: player_id D:\wamp\www\wwwroot\Application\Runtime\Cache\Home\929ce7e01bdc2735067bc2761c003306.php 第 342 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001657s ]
+
+[ 2016-03-25T00:26:12+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002080s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.3057s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0490s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000255s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000483s ]
+NOTIC: [8] Undefined index: player_id D:\wamp\www\wwwroot\Application\Runtime\Cache\Home\929ce7e01bdc2735067bc2761c003306.php 第 341 行.
+NOTIC: [8] Undefined index: player_id D:\wamp\www\wwwroot\Application\Runtime\Cache\Home\929ce7e01bdc2735067bc2761c003306.php 第 342 行.
+NOTIC: [8] Undefined index: player_id D:\wamp\www\wwwroot\Application\Runtime\Cache\Home\929ce7e01bdc2735067bc2761c003306.php 第 341 行.
+NOTIC: [8] Undefined index: player_id D:\wamp\www\wwwroot\Application\Runtime\Cache\Home\929ce7e01bdc2735067bc2761c003306.php 第 344 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001734s ]
+
+[ 2016-03-25T00:26:27+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002038s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0281s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0193s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000369s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000710s ]
+NOTIC: [8] Undefined index: player_id D:\wamp\www\wwwroot\Application\Runtime\Cache\Home\929ce7e01bdc2735067bc2761c003306.php 第 341 行.
+NOTIC: [8] Undefined index: player_id D:\wamp\www\wwwroot\Application\Runtime\Cache\Home\929ce7e01bdc2735067bc2761c003306.php 第 342 行.
+NOTIC: [8] Undefined index: player_id D:\wamp\www\wwwroot\Application\Runtime\Cache\Home\929ce7e01bdc2735067bc2761c003306.php 第 341 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001813s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002626s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002869s ]
+
+[ 2016-03-25T00:26:52+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0256s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0258s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000280s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000519s ]
+NOTIC: [8] Undefined index: player_id D:\wamp\www\wwwroot\Application\Runtime\Cache\Home\929ce7e01bdc2735067bc2761c003306.php 第 344 行.
+NOTIC: [8] Undefined index: player_id D:\wamp\www\wwwroot\Application\Runtime\Cache\Home\929ce7e01bdc2735067bc2761c003306.php 第 345 行.
+NOTIC: [8] Undefined index: player_id D:\wamp\www\wwwroot\Application\Runtime\Cache\Home\929ce7e01bdc2735067bc2761c003306.php 第 344 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001818s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002485s ]
+
+[ 2016-03-25T00:27:36+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001320s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0174s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000269s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000516s ]
+NOTIC: [8] Undefined index: player_id D:\wamp\www\wwwroot\Application\Runtime\Cache\Home\929ce7e01bdc2735067bc2761c003306.php 第 345 行.
+NOTIC: [8] Undefined index: player_id D:\wamp\www\wwwroot\Application\Runtime\Cache\Home\929ce7e01bdc2735067bc2761c003306.php 第 346 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034772s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001306s ]
+
+[ 2016-03-25T00:28:01+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0146s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0148s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `huawei_address` (`person`,`phone`,`address`,`is_default`,`user_id`) VALUES ('纪程瀚','18516102300','上海浦东','0','1') [ RunTime:0.1672s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000368s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019760s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001867s ]
+
+[ 2016-03-25T00:28:02+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001518s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0154s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000264s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000496s ]
+NOTIC: [8] Undefined index: player_id D:\wamp\www\wwwroot\Application\Runtime\Cache\Home\929ce7e01bdc2735067bc2761c003306.php 第 345 行.
+NOTIC: [8] Undefined index: player_id D:\wamp\www\wwwroot\Application\Runtime\Cache\Home\929ce7e01bdc2735067bc2761c003306.php 第 346 行.
+NOTIC: [8] Undefined index: player_id D:\wamp\www\wwwroot\Application\Runtime\Cache\Home\929ce7e01bdc2735067bc2761c003306.php 第 345 行.
+NOTIC: [8] Undefined index: player_id D:\wamp\www\wwwroot\Application\Runtime\Cache\Home\929ce7e01bdc2735067bc2761c003306.php 第 346 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001183s ]
+
+[ 2016-03-25T00:28:46+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001661s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0172s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0167s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2016-03-25T00:31:14+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003380s ]
+
+[ 2016-03-25T00:32:17+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001916s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003201s ]
+
+[ 2016-03-25T00:32:45+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004976s ]
+
+[ 2016-03-25T00:33:13+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001796s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0187s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0167s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000536s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000905s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002677s ]
+
+[ 2016-03-25T00:33:19+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/set_default/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004931s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0183s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `huawei_address` SET `user_id`='1',`is_default`='1' WHERE `id` = 1 [ RunTime:0.0509s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000778s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002795s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003165s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003380s ]
+
+[ 2016-03-25T00:33:20+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003022s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0178s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000481s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002847s ]
+
+[ 2016-03-25T00:33:23+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/set_default/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003143s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0176s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0174s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `huawei_address` SET `user_id`='1',`is_default`='1' WHERE `id` = 3 [ RunTime:0.0572s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000515s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008964s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003295s ]
+
+[ 2016-03-25T00:33:25+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004626s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0172s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0181s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000759s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001014s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003741s ]
+
+[ 2016-03-25T00:37:32+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001929s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0185s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000320s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000549s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001513s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001782s ]
+
+[ 2016-03-25T00:37:38+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002576s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0207s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0195s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `huawei_address` (`person`,`phone`,`address`,`is_default`,`user_id`) VALUES ('纪程瀚','18521566916','上海闸北','0','1') [ RunTime:0.0033s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000370s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003451s ]
+
+[ 2016-03-25T00:37:39+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002301s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0166s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0192s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000484s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045337s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001900s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002409s ]
+
+[ 2016-03-25T00:37:57+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002099s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0163s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0154s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `huawei_address` (`person`,`phone`,`address`,`is_default`,`user_id`) VALUES ('纪程瀚','15651732599','江苏南京','0','1') [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000369s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001775s ]
+
+[ 2016-03-25T00:37:59+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001326s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0173s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0182s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000494s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001253s ]
+
+[ 2016-03-25T00:38:01+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/set_default/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002192s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0205s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0196s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `huawei_address` SET `is_default`='0' WHERE `id` = 1 [ RunTime:0.0032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000874s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023129s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001117s ]
+
+[ 2016-03-25T00:38:04+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001448s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0174s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000258s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000536s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001975s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002016s ]
+
+[ 2016-03-25T00:38:53+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/set_default/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001612s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0222s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `huawei_address` SET `is_default`='0' WHERE `id` = 1 [ RunTime:0.0490s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000716s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021285s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001513s ]
+
+[ 2016-03-25T00:38:56+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001288s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0218s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0234s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000393s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000748s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001133s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001352s ]
+
+[ 2016-03-25T00:39:18+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/set_default/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0169s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0007s ]
+
+[ 2016-03-25T00:40:09+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/set_default/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001950s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0192s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0194s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `huawei_address` SET `is_default`='0' WHERE `id` = 1 [ RunTime:0.0545s ]
+
+[ 2016-03-25T00:40:16+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/set_default/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002220s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0226s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.1025s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `huawei_address` SET `is_default`='0' WHERE `id` = 1 [ RunTime:0.0086s ]
+
+[ 2016-03-25T00:40:22+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/set_default/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001536s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0189s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0232s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `huawei_address` SET `is_default`='0' WHERE `id` = 1 [ RunTime:0.0564s ]
+
+[ 2016-03-25T00:40:42+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/set_default/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001654s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0158s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0167s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2016-03-25T00:41:03+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/set_default/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001650s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0201s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0204s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2016-03-25T00:41:06+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/set_default/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001315s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0214s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2016-03-25T00:41:24+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/set_default/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001533s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2016-03-25T00:41:28+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/set_default/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002180s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0213s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2016-03-25T00:43:01+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/set_default/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002613s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0188s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `huawei_address` SET `user_id`='1',`is_default`='1' WHERE `id` = 1 [ RunTime:0.0518s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000463s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002632s ]
+
+[ 2016-03-25T00:43:02+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001433s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0155s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000487s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001361s ]
+
+[ 2016-03-25T00:43:04+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/set_default/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001446s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0203s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0181s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `huawei_address` SET `is_default`='0' WHERE `id` = 1 [ RunTime:0.0494s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `huawei_address` SET `user_id`='1',`is_default`='1' WHERE `id` = 2 [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000747s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001649s ]
+
+[ 2016-03-25T00:43:05+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001728s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0169s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000570s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040310s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001287s ]
+
+[ 2016-03-25T00:43:08+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/set_default/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001563s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0165s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `huawei_address` SET `is_default`='0' WHERE `id` = 2 [ RunTime:0.0025s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `huawei_address` SET `user_id`='1',`is_default`='1' WHERE `id` = 1 [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000397s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001384s ]
+
+[ 2016-03-25T00:43:09+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001286s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0155s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000481s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001244s ]
+
+[ 2016-03-25T00:43:11+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/set_default/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002310s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0188s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0164s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `huawei_address` SET `is_default`='0' WHERE `id` = 1 [ RunTime:0.0028s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `huawei_address` SET `user_id`='1',`is_default`='1' WHERE `id` = 2 [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001727s ]
+
+[ 2016-03-25T00:43:12+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001404s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0177s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000496s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001214s ]
+
+[ 2016-03-25T00:43:14+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/set_default/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001359s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0193s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `huawei_address` SET `is_default`='0' WHERE `id` = 2 [ RunTime:0.0544s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `huawei_address` SET `user_id`='1',`is_default`='1' WHERE `id` = 1 [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000381s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020316s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002634s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001638s ]
+
+[ 2016-03-25T00:43:16+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000485s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035643s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001189s ]
+
+[ 2016-03-25T00:43:50+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000723s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001923s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0247s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0233s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000420s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000803s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001854s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001150s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001370s ]
+
+[ 2016-03-25T00:43:53+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/set_default/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002419s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0207s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0211s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `huawei_address` SET `is_default`='0' WHERE `id` = 1 [ RunTime:0.0560s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `huawei_address` SET `user_id`='1',`is_default`='1' WHERE `id` = 2 [ RunTime:0.0033s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000601s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033304s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033783s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004038s ]
+
+[ 2016-03-25T00:43:54+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003170s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0188s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0163s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000472s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047915s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002164s ]
+
+[ 2016-03-25T00:47:18+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002159s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0166s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000255s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000488s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001807s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003184s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003459s ]
+
+[ 2016-03-25T00:47:31+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003057s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0175s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0178s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `huawei_address` SET `is_default`='0' WHERE `id` = 2 [ RunTime:0.0027s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `huawei_address` (`person`,`phone`,`address`,`is_default`,`user_id`) VALUES ('纪程瀚','18516102300','上海浦东','1','1') [ RunTime:0.0325s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002690s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003320s ]
+
+[ 2016-03-25T00:47:32+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002895s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0142s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000471s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003807s ]
+
+[ 2016-03-25T00:47:40+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/set_default/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002848s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0174s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `huawei_address` SET `is_default`='0' WHERE `id` = 3 [ RunTime:0.0025s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `huawei_address` SET `user_id`='1',`is_default`='1' WHERE `id` = 2 [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000559s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003569s ]
+
+[ 2016-03-25T00:47:41+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003288s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0564s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0177s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000303s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000534s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002799s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004138s ]
+
+[ 2016-03-25T00:47:43+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/set_default/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002824s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0172s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `huawei_address` SET `is_default`='0' WHERE `id` = 2 [ RunTime:0.0491s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `huawei_address` SET `user_id`='1',`is_default`='1' WHERE `id` = 1 [ RunTime:0.0032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000409s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002962s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002923s ]
+
+[ 2016-03-25T00:47:44+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003174s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0164s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0176s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000479s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003846s ]
+
+[ 2016-03-25T00:49:43+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003334s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0173s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0174s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000514s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000921s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047733s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002877s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003450s ]
+
+[ 2016-03-25T00:49:48+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/delete/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002875s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0213s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0206s ]
+SQL: DELETE FROM `huawei_address` WHERE `id` = 3 [ RunTime:0.0396s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000821s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002757s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002960s ]
+
+[ 2016-03-25T00:49:49+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002849s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0167s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000403s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000773s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002768s ]
+
+[ 2016-03-25T00:49:55+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Order/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002554s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0203s ]
+SQL: SHOW COLUMNS FROM `huawei_cart` [ RunTime:0.0186s ]
+SQL: SHOW COLUMNS FROM `huawei_product` [ RunTime:0.0178s ]
+SQL: SHOW COLUMNS FROM `huawei_pro_img` [ RunTime:0.0171s ]
+SQL: SHOW COLUMNS FROM `huawei_order` [ RunTime:0.0185s ]
+SQL: SHOW COLUMNS FROM `huawei_order_pro` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `huawei_order` WHERE ( user_id=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `huawei_order_pro` WHERE ( order_number="56f3f0030e8de" )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000486s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\wwwroot\Application\Runtime\Cache\Home\ffa8aade729e4e26e935cd9703650a4b.php 第 343 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001664s ]
+
+[ 2016-03-25T00:56:19+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Order/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002488s ]
+
+[ 2016-03-25T00:56:37+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Order/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002288s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0256s ]
+SQL: SHOW COLUMNS FROM `huawei_cart` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `huawei_product` [ RunTime:0.0226s ]
+SQL: SHOW COLUMNS FROM `huawei_pro_img` [ RunTime:0.0204s ]
+SQL: SHOW COLUMNS FROM `huawei_order` [ RunTime:0.0209s ]
+SQL: SHOW COLUMNS FROM `huawei_order_pro` [ RunTime:0.0169s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0197s ]
+SQL: SELECT * FROM `huawei_order` WHERE ( user_id=1 )  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `huawei_order_pro` WHERE ( order_number="56f3f0030e8de" )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000269s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000521s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\wwwroot\Application\Runtime\Cache\Home\ffa8aade729e4e26e935cd9703650a4b.php 第 343 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050457s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002142s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002400s ]
+
+[ 2016-03-25T00:56:40+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Cart/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001528s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0154s ]
+SQL: SHOW COLUMNS FROM `huawei_cart` [ RunTime:0.0144s ]
+SQL: SHOW COLUMNS FROM `huawei_pro_attr` [ RunTime:0.0149s ]
+SQL: SHOW COLUMNS FROM `huawei_attribute` [ RunTime:0.0173s ]
+SQL: SHOW COLUMNS FROM `huawei_product` [ RunTime:0.0282s ]
+SQL: SHOW COLUMNS FROM `huawei_pro_img` [ RunTime:0.0204s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `huawei_cart` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `huawei_cart` WHERE `user_id` = 1 ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.0007s ]
+SQL: SELECT `attr_id`,`value_id` FROM `huawei_pro_attr` WHERE `pro_id` = '6'  [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `huawei_attribute` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `huawei_attribute` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `huawei_color` [ RunTime:0.0209s ]
+SQL: SELECT `value` FROM `huawei_color` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `title` FROM `huawei_attribute` WHERE `id` = '2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `huawei_attribute` WHERE `id` = '2' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `huawei_version` [ RunTime:0.0209s ]
+SQL: SELECT `value` FROM `huawei_version` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `title` FROM `huawei_attribute` WHERE `id` = '3' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `huawei_attribute` WHERE `id` = '3' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `huawei_ram` [ RunTime:0.0197s ]
+SQL: SELECT `value` FROM `huawei_ram` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `title` FROM `huawei_attribute` WHERE `id` = '4' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `huawei_attribute` WHERE `id` = '4' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `huawei_screen` [ RunTime:0.0162s ]
+SQL: SELECT `value` FROM `huawei_screen` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name`,`price`,`ad` FROM `huawei_product` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name`,`path` FROM `huawei_pro_img` WHERE `pro_id` = '6' AND `is_face` = '1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000277s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000509s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001192s ]
+
+[ 2016-03-25T00:56:40+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Cart/js/ShopShow.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001975s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0239s ]
+SQL: SHOW COLUMNS FROM `huawei_cart` [ RunTime:0.0211s ]
+SQL: SHOW COLUMNS FROM `huawei_pro_attr` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `huawei_attribute` [ RunTime:0.0175s ]
+SQL: SHOW COLUMNS FROM `huawei_product` [ RunTime:0.0209s ]
+SQL: SHOW COLUMNS FROM `huawei_pro_img` [ RunTime:0.0176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001764s ]
+
+[ 2016-03-25T00:56:48+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001961s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0218s ]
+SQL: SHOW COLUMNS FROM `huawei_cart` [ RunTime:0.0258s ]
+SQL: SELECT * FROM `huawei_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `huawei_avatar` [ RunTime:0.0206s ]
+SQL: SELECT * FROM `huawei_avatar` WHERE ( user_id=1 )  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000701s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000967s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054680s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001721s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002194s ]
+
+[ 2016-03-25T00:56:51+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000990s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001397s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0157s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000470s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038177s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001553s ]
+
+[ 2016-03-25T00:56:56+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Order/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002391s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0505s ]
+SQL: SHOW COLUMNS FROM `huawei_cart` [ RunTime:0.0233s ]
+SQL: SHOW COLUMNS FROM `huawei_product` [ RunTime:0.0231s ]
+SQL: SHOW COLUMNS FROM `huawei_pro_img` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `huawei_order` [ RunTime:0.0215s ]
+SQL: SHOW COLUMNS FROM `huawei_order_pro` [ RunTime:0.0206s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0268s ]
+SQL: SELECT * FROM `huawei_order` WHERE ( user_id=1 )  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `huawei_order_pro` WHERE ( order_number="56f3f0030e8de" )  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000292s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000534s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\wwwroot\Application\Runtime\Cache\Home\ffa8aade729e4e26e935cd9703650a4b.php 第 343 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051539s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001486s ]
+
+[ 2016-03-25T01:01:31+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Order/pay/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002350s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0199s ]
+SQL: SHOW COLUMNS FROM `huawei_cart` [ RunTime:0.0177s ]
+SQL: SHOW COLUMNS FROM `huawei_product` [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `huawei_pro_img` [ RunTime:0.0202s ]
+SQL: SHOW COLUMNS FROM `huawei_order` [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `huawei_order_pro` [ RunTime:0.0199s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0197s ]
+SQL: SELECT * FROM `huawei_address` WHERE `user_id` = '1' AND `is_default` = 1 LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2016-03-25T01:03:37+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Order/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004480s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `huawei_cart` [ RunTime:0.0208s ]
+SQL: SHOW COLUMNS FROM `huawei_product` [ RunTime:0.0219s ]
+SQL: SHOW COLUMNS FROM `huawei_pro_img` [ RunTime:0.0205s ]
+SQL: SHOW COLUMNS FROM `huawei_order` [ RunTime:0.0188s ]
+SQL: SHOW COLUMNS FROM `huawei_order_pro` [ RunTime:0.0225s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0206s ]
+SQL: SELECT * FROM `huawei_order` WHERE ( user_id=1 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `huawei_order_pro` WHERE ( order_number="56f3f0030e8de" )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000374s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000704s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\wwwroot\Application\Runtime\Cache\Home\ffa8aade729e4e26e935cd9703650a4b.php 第 343 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059311s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004237s ]
+
+[ 2016-03-25T01:03:39+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Order/pay/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005326s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0223s ]
+SQL: SHOW COLUMNS FROM `huawei_cart` [ RunTime:0.0239s ]
+SQL: SHOW COLUMNS FROM `huawei_product` [ RunTime:0.0211s ]
+SQL: SHOW COLUMNS FROM `huawei_pro_img` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `huawei_order` [ RunTime:0.0188s ]
+SQL: SHOW COLUMNS FROM `huawei_order_pro` [ RunTime:0.0209s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0226s ]
+SQL: SELECT * FROM `huawei_address` WHERE `user_id` = '1' AND `is_default` = 1 LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `huawei_order` SET `person`='纪程瀚',`phone`='18521566916',`address`='上海闸北',`display`='1' WHERE `id` = 1 [ RunTime:0.0538s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000306s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000751s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003934s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002885s ]
+
+[ 2016-03-25T01:03:41+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Order/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002980s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0176s ]
+SQL: SHOW COLUMNS FROM `huawei_cart` [ RunTime:0.0174s ]
+SQL: SHOW COLUMNS FROM `huawei_product` [ RunTime:0.0185s ]
+SQL: SHOW COLUMNS FROM `huawei_pro_img` [ RunTime:0.0164s ]
+SQL: SHOW COLUMNS FROM `huawei_order` [ RunTime:0.0182s ]
+SQL: SHOW COLUMNS FROM `huawei_order_pro` [ RunTime:0.0161s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0184s ]
+SQL: SELECT * FROM `huawei_order` WHERE ( user_id=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `huawei_order_pro` WHERE ( order_number="56f3f0030e8de" )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000431s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000800s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\wwwroot\Application\Runtime\Cache\Home\ffa8aade729e4e26e935cd9703650a4b.php 第 343 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052193s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002845s ]
+
+[ 2016-03-25T01:03:50+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Order/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003459s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0159s ]
+SQL: SHOW COLUMNS FROM `huawei_cart` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `huawei_product` [ RunTime:0.0161s ]
+SQL: SHOW COLUMNS FROM `huawei_pro_img` [ RunTime:0.0168s ]
+SQL: SHOW COLUMNS FROM `huawei_order` [ RunTime:0.0163s ]
+SQL: SHOW COLUMNS FROM `huawei_order_pro` [ RunTime:0.0203s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0441s ]
+SQL: SELECT * FROM `huawei_order` WHERE ( user_id=1 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `huawei_order_pro` WHERE ( order_number="56f3f0030e8de" )  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000351s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000644s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\wwwroot\Application\Runtime\Cache\Home\ffa8aade729e4e26e935cd9703650a4b.php 第 343 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002647s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003289s ]
+
+[ 2016-03-25T01:04:38+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Order/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002079s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0247s ]
+SQL: SHOW COLUMNS FROM `huawei_cart` [ RunTime:0.0848s ]
+SQL: SHOW COLUMNS FROM `huawei_product` [ RunTime:0.0211s ]
+SQL: SHOW COLUMNS FROM `huawei_pro_img` [ RunTime:0.0271s ]
+SQL: SHOW COLUMNS FROM `huawei_order` [ RunTime:0.0237s ]
+SQL: SHOW COLUMNS FROM `huawei_order_pro` [ RunTime:0.0175s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0186s ]
+SQL: SELECT * FROM `huawei_order` WHERE ( user_id=1 )  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `huawei_order_pro` WHERE ( order_number="56f3f0030e8de" )  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000493s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\wwwroot\Application\Runtime\Cache\Home\ffa8aade729e4e26e935cd9703650a4b.php 第 343 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001733s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002374s ]
+
+[ 2016-03-25T01:57:43+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0216s ]
+SQL: SHOW COLUMNS FROM `huawei_cart` [ RunTime:0.0189s ]
+SQL: SELECT * FROM `huawei_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `huawei_avatar` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `huawei_avatar` WHERE ( user_id=1 )  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000333s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000611s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001618s ]
+
+[ 2016-03-25T01:57:54+08:00 ] 127.0.0.1 /wwwroot/index.php/Home/Address/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001932s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0202s ]
+SQL: SHOW COLUMNS FROM `huawei_address` [ RunTime:0.0203s ]
+SQL: SELECT * FROM `huawei_address` WHERE ( user_id=1 )  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000393s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000755s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001611s ]
+

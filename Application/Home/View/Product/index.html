@@ -1,0 +1,121 @@
+<extend name='Layout/index' />
+
+<block name="main">
+<link rel="stylesheet" href="__PUBLIC__/show/css/ShopShow.css" type="text/css" />
+<link rel="stylesheet" href="__PUBLIC__/show/css/MagicZoom.css" type="text/css" />
+<script src="__PUBLIC__/show/js/MagicZoom.js" type="text/javascript"></script>
+<script src="__PUBLIC__/cxselect/jquery.cxselect.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $.cxSelect.defaults.url = 'select.json'; 
+    $.cxSelect.defaults.nodata = 'none'; 
+</script>
+<link href="__PUBLIC__/Dist/css/product.css" rel="stylesheet">
+
+<!--商品详情-->
+<div id="main_product">
+
+  <div id="tsShopContainer">
+  <div id="tsImgS"><a href="__ROOT__/Uploads/<{$pro['img'][0]['path']}><{$pro['img'][0]['name']}>" title="Images" class="MagicZoom" id="MagicZoom"><img width="300" height="300" src="__ROOT__/Uploads/<{$pro['img'][0]['path']}><{$pro['img'][0]['name']}>" /></a></div>
+  <div id="tsPicContainer" style="margin-top:20px;">
+    <div id="tsImgSArrL" onclick="tsScrollArrLeft()"></div>
+    <div id="tsImgSCon">
+      <ul>
+        <volist name="pro.img" id="img" empty="没有图片" key="i"> 
+        <li onclick="showPic(<{$i-1}>)" rel="MagicZoom" ><img height="42" width="42" src="__ROOT__/Uploads/<{$img.path}><{$img.name}>" tsImgS="__ROOT__/Uploads/<{$img.path}><{$img.name}>" /></li>
+        </volist> 
+      </ul>
+    </div>
+    <div id="tsImgSArrR" onclick="tsScrollArrRight()"></div>
+  </div>
+  <img class="MagicZoomLoading" width="16" height="16" src="images/loading.gif" alt="Loading..." />
+</div>
+<script src="__PUBLIC__/show/js/ShopShow.js"></script>
+  
+    <div id="element_id" class="row">
+            <div class="col-xs-10">
+                <form class="form-horizontal" action='<{:U('Cart/add')}>' method='post'>
+                  <div class="form-group">
+                    <label for="" class="col-sm-3 control-label">商品名</label>
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control"  name="" value="<{$pro.name}>" disabled>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="" class="col-sm-3 control-label">特性</label>
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control"  name="" value="<{$pro.ad}>" disabled style="color:red">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="" class="col-sm-3 control-label">华为价</label>
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" name="price" value="<{$pro.price}>" disabled style="color:red; font-size:18px;">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="" class="col-sm-3 control-label">商品编码</label>
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" value="<{$pro.number}>" disabled >
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="" class="col-sm-3 control-label">商品评分</label>
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control"  name="" value="<{$pro.point}> ( 共 <{$pro.comment}> 条评论 )" disabled >
+                    </div>
+                  </div>
+                  <hr>
+<volist name="attr" id="select">
+   <div class="form-group">
+        <label for="" class="col-sm-3 control-label">选择<{$select.name}></label>
+        <div class="col-sm-9">
+           <select class="form-control" name='<{$select.title}>' data-value="请选择">
+            
+             <volist name="select.value" id="value">
+                <option value="<{$value.id}>"><{$value.value}></option>
+             </volist>
+            
+           </select>
+        </div>
+    </div>
+</volist> 
+<script type="text/javascript">
+    $('#element_id select').blur(function(){
+      $.ajax({
+          type:'post',
+          url:'<{:U('attr')}>',
+          data:'num=<{$pro.number}>',
+            success:function(data){
+                 
+            },
+            dataType:'json',
+      });
+    })
+    $('#element_id').cxSelect({ 
+    url: 'select.json',               // 如果服务器不支持 .json 类型文件，请将文件改为 .js 文件 
+    selects: [<{$title}>],  // 数组格式，请注意顺序 
+    nodata: 'none' 
+}); 
+</script>                 
+                 <div class="form-group">
+                    <label for="" class="col-sm-3 control-label">购买数量</label>
+                    <div class="col-sm-9">
+                      <input type="number" class="form-control"  name="num" value="1" min="1" max="<{$pro.stock}>">
+                    </div>
+                  </div>
+                  <input type="hidden" name="pro_id" value="<{$pro.id}>">
+                  <input type="hidden" name="price" value="<{$pro.price}>">
+                  <div class="form-group">
+                    <div class="col-sm-offset-3 col-sm-10">
+                      <button type="submit" class="btn btn-danger" onsubmit="return mySubmit(true);">加入购物车</button>
+                    </div>
+                  </div>
+                </form>
+            </div>
+</div>
+<!--商品详情-->
+<div style="clear:both"></div>
+<div style="width:750px; margin:0 auto; margin-top:20px;">
+  <?php echo html_entity_decode(stripslashes($pro['describe'])); ?>
+</div>
+</block>  

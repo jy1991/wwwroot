@@ -1,0 +1,47 @@
+<extend name='Layout/index' />
+
+<block name='breadcrumb'>
+	<li>
+		<i class="icon-home home-icon"></i>
+		<a href="#">首页</a>
+	</li>
+	<li class="active">商品管理</li>
+</block>
+
+<block name='page_header'>
+	<h1>
+		商品管理
+		<small>
+			<i class="icon-double-angle-right"></i>
+			 分配属性值
+		</small>
+	</h1>
+</block>
+
+<block name="main_content">
+	<div class="row">	
+		<div class="col-md-12">
+			<p style="font-size:18px; height:26px;">
+				给 <span class="label label-success" style="font-size:16px; height:26px;"><{$pro_name}></span> 分配 <span class="label label-danger" style="font-size:16px; height:26px;"><{$title.name}></span> &nbsp;属性的值
+			</p>
+			<br>
+			<br>
+			<form action="<{:U('Product/savelist')}>" method='post'>
+			<p style="width:800px">
+				<volist name="value" id="vo"> 
+					<input type="checkbox" name="node[]"  value="<{$vo.id}>" <if condition="in_array($vo['id'],$ro_values) eq true">checked</if>> <{$vo.value}>&nbsp;&nbsp;
+					<if condition="$i%4 eq 0 "><br></if>
+				</volist>
+			</p>
+			<br>
+			<br>
+			<input type="hidden" name="pro_id" value="<{$pro_id}>">
+			<input type="hidden" name="attr_id" value="<{$attr_id}>">
+			<input type="submit" value="保 存" class="btn btn-primary" style="margin_left:60px;">
+
+			</form>
+		</div>
+		
+	</div>
+
+</block>

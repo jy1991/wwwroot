@@ -1,0 +1,42 @@
+<extend name='Layout/index' />
+
+<block name='breadcrumb'>
+	<li>
+		<i class="icon-home home-icon"></i>
+		<a href="#">首页</a>
+	</li>
+	<li class="active">角色管理</li>
+</block>
+
+<block name='page_header'>
+	<h1>
+		角色管理
+		<small>
+			<i class="icon-double-angle-right"></i>
+			 分配权限
+		</small>
+	</h1>
+</block>
+
+<block name="main_content">
+	<div class="row">	
+		<div class="col-md-12">
+			<p style="font-size:18px; height:26px;">
+				给 <span class="label label-success" style="font-size:16px; height:26px;"><{$role.player_name}></span> 分配权限
+			</p>
+			
+			<form action="<{:U('Player/save')}>" method='post'>
+			<p style="width:800px">
+				<volist name="player" id="vo"> 
+					<input type="checkbox" name="node[]"  value="<{$vo.id}>" <if condition="in_array($vo['id'],$ro_nodes) eq true">checked</if>> <{$vo.work_name}>&nbsp;&nbsp;
+					<if condition="$i%4 eq 0 "><br></if>
+				</volist>
+			</p>
+			<input type="hidden" name="player_id" value="<{$role.player_id}>">
+			<input type="submit" value="保 存" class="btn btn-primary" style="margin_left:60px;">
+
+			</form>
+		</div>
+	</div>
+	
+</block>

@@ -1,0 +1,51 @@
+<extend name="Layout/index" />
+<block name="breadcrumb">
+	<li>
+		<i class="icon-home home-icon"></i>
+		<a href="#">首页</a>
+	</li>
+	<li class="active">分类管理</li>
+</block>
+
+<block name="page_header">
+	<h1>
+		分类管理
+		<small>
+			<i class="icon-double-angle-right"></i>
+			 分类添加
+		</small>
+	</h1>
+</block>
+<block name="main_content">
+	<script type="text/javascript" src="__PUBLIC__/Dist/js/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Dist/css/pagination.css">
+    <div class="row">
+		<div class="col-md-12">
+			<form action="<{:U('List/update')}>" method='post' class="form-horizontal">
+                
+                <div class="form-group" style="">
+					<label for="" class="col-sm-2 control-label">分类名：</label>
+					<div class="col-sm-4">
+						<input type="text" name="name" class="form-control" value="<{$list.name}>">
+					</div>
+				</div>
+				
+				<div class="form-group">
+					<label for="" class="col-sm-2 control-label">状态：</label>
+					<div class="col-sm-4">
+							<input type="radio" name="display" value="1" <?php echo ($list['display'
+				          ]=='1')?'checked':''; ?>>&nbsp;启用&nbsp;&nbsp;&nbsp;
+							<input type="radio" name="display" value="0" <?php echo ($list['display']=='0')?'checked':''; ?>>&nbsp;禁用
+					</div>
+				</div>
+				<input type="hidden" name="id" value="<{$list.id}>"> 
+				<div class="form-group">
+				    <div class="col-sm-offset-2 col-sm-4">
+				      <button type="submit" class="btn btn-default">修 改</button>
+				    </div>
+				</div>
+		
+			</form>
+		</div>
+	</div>
+</block>

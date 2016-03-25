@@ -1,0 +1,140 @@
+<extend name='Layout/index' />
+
+<block name='breadcrumb'>
+	<li>
+		<i class="icon-home home-icon"></i>
+		<a href="#">首页</a>
+	</li>
+	<li class="active">管理员信息管理</li>
+</block>
+
+<block name='page_header'>
+    <h1>
+		管理员信息管理
+		<small>
+			<i class="icon-double-angle-right"></i>
+			 修改密码
+		</small>
+	</h1>
+</block>
+
+<block name='main_content'>
+	<script type="text/javascript" src="__PUBLIC__/Dist/js/jquery.min.js"></script>
+	<script type="text/javascript">
+      var flag=true,flag1=false,flag2=false,flag3=false;
+      $(document).ready(function(){
+      function mySubmit(flag){
+         return flag;
+      }	
+      $('form').submit(function(){
+      	  if(pp.val()=='' || np.val()=='' || rp.val()==''){
+      	  	flag=false;
+      	  }else{
+      	  	flag=true;
+      	  }
+      	  if(flag && flag1 && flag2 && flag3){
+      	  	return mySubmit(true);
+      	  }else{
+      	  	return mySubmit(false);
+      	  }
+      })
+      var pp=$('#pre_pass');
+      pp.blur(function(){
+      	  if(pp.val()==''){
+      	  	flag1=false;
+      	  	$('#cf_pre_pass').css('color','red');
+      	  	$('#cf_pre_pass').val('原密码不能为空');
+      	  }else{
+      	  	$.ajax({
+		  	  type:'post',
+		  	  url:'<{:U('adminPass')}>',
+		  	  data:'pre_pass='+pp.val(),
+	          success:function(data){
+	             if(data==0){
+	             	$('#cf_pre_pass').css('color','red');
+	             	$('#cf_pre_pass').val('原密码错误');
+	             	flag1=false;
+	             }else{
+	             	$('#cf_pre_pass').css('color','green');
+	             	$('#cf_pre_pass').val('原密码正确');
+	             	flag1=true;
+	             }
+
+	          },
+	          dataType:'json',
+		  })
+      	  }
+      	  
+      	})	
+        var np=$('#new_pass');
+		  np.blur(function(){
+             if(np.val()==''){
+             	$('#cf_new_pass').val('密码不能为空');
+             	flag2=false;
+             }else if(!/^[0-9a-zA-Z_]{5,16}$/.test(np.val())){
+      	     	flag2=false;
+      	     	$('#cf_new_pass').val('密码由5-16位字母数字下划线组成');
+      	     }else{
+      	     	flag2=true;
+      	     	$('#cf_new_pass').val('');
+      	     }
+		})
+	    var rp=$('#new_repass');
+	     rp.blur(function(){
+             if(rp.val()!=np.val()){
+             	$('#cf_new_repass').val('两次密码不一致');
+             	flag3=false;
+             }else{
+      	     	flag3=true;
+      	     	$('#cf_new_repass').val('');
+      	     }
+		})
+		  
+    }) 
+      
+    </script>
+
+		<div class="row">
+			<div class="col-xs-10">
+				<form class="form-horizontal" action='<{:U("update")}>' method='post'>
+				  <div class="form-group">
+				    <label for="pre_pass" class="col-sm-2 control-label">原密码</label>
+				    <div class="col-sm-4">
+				      <input type="text" id="pre_pass" class="form-control">
+				    </div>
+				    <div class="col-sm-6">
+				      <input type="text" id="cf_pre_pass" class="form-control" style="border:none; color:red">
+				    </div>
+				  </div>
+
+				  <div class="form-group">
+				    <label for="admin_pass" class="col-sm-2 control-label">新密码</label>
+				    <div class="col-sm-4">
+				      <input type="text" id="new_pass" class="form-control"  name="admin_pass">
+				    </div>
+				    <div class="col-sm-6">
+				      <input type="text" id="cf_new_pass" class="form-control" style="border:none; color:red">
+				    </div>
+				  </div>
+
+				  <div class="form-group">
+				    <label for="new_pass" class="col-sm-2 control-label">确认新密码</label>
+				    <div class="col-sm-4">
+				      <input type="text" id="new_repass" class="form-control">
+				    </div>
+				    <div class="col-sm-6">
+				      <input type="text" id="cf_new_repass" class="form-control" style="border:none; color:red">
+				    </div>
+				  </div>
+                  
+                  <input type="hidden" name="id" value="<{$Think.session.admin_user.id}>">
+
+				  <div class="form-group">
+				    <div class="col-sm-offset-2 col-sm-10">
+				      <button type="submit" class="btn btn-defpplt"onsubmit="return mySubmit(true);">确认</button>
+				    </div>
+				  </div>
+				</form>
+			</div>
+		</div>
+</block>

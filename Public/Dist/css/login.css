@@ -1,0 +1,18 @@
+#main_content{
+	position: relative;
+	top:20px;
+	padding: 40px;
+	width:800px; 
+	margin: 0 auto;
+	border: solid 1px #ccc;
+}
+#main_content label{
+	font-family: '微软雅黑';
+	color: #999;
+	font-size:15px;
+	letter-spacing:4px;
+}
+#cf_yzm{
+	border: none;
+	background: #fff;
+}

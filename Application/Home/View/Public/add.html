@@ -1,0 +1,85 @@
+<extend name='Layout/index' />
+
+<block name="main">
+
+<script type="text/javascript">
+  $(document).ready(function(){
+     
+     var time=new Date().getTime();
+     var yzm_img = $('#yzm_img').find('img');
+     yzm_img.click(function(){
+         yzm_img.attr('src','<{:U('verify')}>?random='+time);
+     })
+
+    $('#yzm').on('input',function(){
+      var yzm=$('#yzm').val();
+      if(yzm.length==4){
+         
+         $.ajax({
+          type:'get',
+          url:'<{:U('cf_yzm')}>',
+          data:'yzm='+yzm,
+            success:function(data){
+               if(data==0){
+                 $('#cf_yzm').css('color','red').val('验证码不正确');
+                 $('#submit').attr('disabled',true);
+               }else {
+                 $('#cf_yzm').css('color','green').val('验证码通过');
+                 $('#submit').attr('disabled',false);
+               }
+            },
+            dataType:'json',
+         })
+      }
+    })
+})
+</script>
+
+<!--注册用户-->
+<div id="main_content">
+    <form class="form-horizontal"  action='<{:U("register")}>' method='post'>
+        <div class="form-group">
+          <label for="email" class="col-sm-3 control-label">邮箱</label>
+            <div class="col-sm-6">
+              <input type="text" class="form-control"  id="email" name="email">
+            </div>
+         </div>
+         <div class="form-group">
+          <label for="pass" class="col-sm-3 control-label">密码</label>
+            <div class="col-sm-6">
+              <input type="password" class="form-control" id="pass" name="pass">
+            </div>
+         </div>
+         <div class="form-group">
+          <label for="repass" class="col-sm-3 control-label">确认密码</label>
+            <div class="col-sm-6">
+              <input type="password" class="form-control" id="repass" name="repass">
+            </div>
+         </div>
+         <div class="form-group">
+          <label for="yzm" class="col-sm-3 control-label">验证码</label>
+            <div class="col-sm-3">
+              <input type="text" class="form-control" id="yzm" name="yzm">
+            </div>
+            <div class="col-sm-3" id="yzm_img">
+              <img src="<{:U('verify',array())}>" alt="验证码" title="点击刷新">
+            </div>
+         </div>
+        <div class="form-group">
+          <label for="" class="col-sm-3 control-label"></label>
+            <div class="col-sm-6">
+              <input type="text" class="form-control" id="cf_yzm" disabled>
+            </div>
+         </div>
+    
+        <div class="form-group">
+          <label for="" class="col-sm-3 control-label"></label>
+          <div class="col-sm-3">
+            <button type="submit" id="submit" class="btn btn-warning" disabled>立即注册</button>
+          </div>
+        </div>
+    </form>
+
+</div>
+</block> 
+

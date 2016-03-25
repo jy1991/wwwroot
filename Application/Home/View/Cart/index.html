@@ -1,0 +1,147 @@
+<extend name='Layout/index' />
+
+<block name="main">
+	<style>
+	th,td{
+		text-align: center;
+	}
+	#count{
+		width:100%;
+		height:80px;
+		border:solid 1px #ccc;
+		padding: 5px;
+	}
+	#count a{
+		float:right;
+		margin: 10px;
+		padding: 10px; 
+	}
+	</style>
+<link rel="stylesheet" href="__PUBLIC__/show/css/ShopShow.css" type="text/css" />
+<link rel="stylesheet" href="__PUBLIC__/show/css/MagicZoom.css" type="text/css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Dist/css/pagination.css">
+<script src="__PUBLIC__/show/js/MagicZoom.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$('document').ready(function(){
+		var select=new Array();
+		$("input[name='all_select[]']").click(function(){
+			$("input[name='select[]']").prop("checked",$(this).prop('checked'));   
+		})
+		$("input[name='select[]']").click(function(){
+			$(this).blur();
+			$(this).focus();
+		}) 
+		$("input[name='select[]']").change(function(){
+			$("input[name='select[]']").each(function(){
+			   select.push($(this).prop('checked'));
+			})
+			
+			  $.ajax({
+		  	  type:'post',
+		  	  url:'<{:U('count')}>',
+		  	  data:'select='+select,
+	          success:function(data){
+                  $('#sum').html('总计金额: '+data+' 元');
+	          },
+	          dataType:'json',
+		  })
+		  select=new Array();	  
+		})
+		$("input[name='all_select[]']").change(function(){
+			$("input[name='select[]']").each(function(){
+			   select.push(!$(this).prop('checked'));
+			})
+			
+			  $.ajax({
+		  	  type:'post',
+		  	  url:'<{:U('count')}>',
+		  	  data:'select='+select,
+	          success:function(data){
+                  $('#sum').html('总计金额: '+data+' 元');
+	          },
+	          dataType:'json',
+		  })
+		  select=new Array();	  
+		})
+		$('#order').click(function(){
+			$("input[name='select[]']").each(function(){
+			   select.push($(this).prop('checked'));
+			})
+			
+			  $.ajax({
+		  	  type:'post',
+		  	  url:'<{:U('Order/add')}>',
+		  	  data:'select='+select,
+	          success:function(data){
+                  alert(data);
+	          },
+	          dataType:'json',
+		  })
+		  select=new Array();	  
+		})
+	})
+</script>
+
+  <div class="row" style="width:1200px; margin:0 auto; margin-top:20px;">
+    	<div class="col-md-12">
+			<table class='table table-striped table-bordered table-hover'>
+			<thead>
+				<tr>
+					<th><input type="checkbox" name="all_select[]"> </th>
+					<th>商品名</th>
+					<th>属性</th>
+					<th>图片</th>
+					<th>单价</th>
+					<th>数量</th>
+					<th>小计</th>
+					<th>时间</th>
+					<th>操作</th>
+				</tr>
+			</thead>
+			<tbody>
+				<volist name='list' id='vo'>
+				<tr>
+					<td>
+                        <input type="checkbox" name="select[]"> 
+					</td>
+					<td><{$vo.pro_info.name}></td>
+					<td>
+						<select>
+						<volist name="vo.role" id="role">
+							<option style="position:relative; list-style:none;">
+								<span class="label label-primary" style="font-size:16px; height:26px;"><{$role}></span>
+							&nbsp;
+						    </option>
+						</volist>
+					    </select>
+					</td>
+					<td style="width:30px;">
+							<div id="tsShopContainer" style="width:36px">
+								<div id="tsImgS"><a href="__ROOT__/Uploads/<{$vo.img.path}><{$vo.img.name}>" title="<{$vo.pro_info.ad}>" class="MagicZoom" id="MagicZoom"><img width="24" src="__ROOT__/Uploads/<{$vo.img.path}><{$vo.img.name}>" /></a></div>
+								
+							</div>
+							<script src="js/ShopShow.js"></script>			
+					</td>
+					<td><{$vo.pro_info.price}></td>
+					<td><{$vo.num}></td>
+					<td><?php echo $vo['pro_info']['price']*$vo['num']; ?></td>
+					<td>
+					    <?php echo date('Y-m-d H:i:s',$vo['addtime']); ?>
+				    </td>
+					<td>
+						<a href="<{:U('delete', array('id'=>$vo['id']))}>" class="btn btn-danger">删除</a>
+					</td>	
+				</tr>  
+				</volist>
+			</tbody>
+		</table>
+<div id="count">
+    <a id="order" href="<{:U('Order/index', array('id'=>$vo['id']))}>" class="btn btn-danger btn-lg">结算</a>
+    <a href="<{:U('Index/index')}>" class="btn btn-info btn-lg">继续购物</a>
+    <a id="sum" class="btn btn-success btn-lg">总计金额: 0 元</a>
+</div>		
+		<div class="pagination" style="float:right;margin-right:60px;"><ul><{$page}></ul></div>                
+		</div>
+	</div>
+
+</block>

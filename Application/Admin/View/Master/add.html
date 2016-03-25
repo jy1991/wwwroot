@@ -1,0 +1,190 @@
+<extend name='Layout/index' />
+
+<block name='breadcrumb'>
+	<li>
+		<i class="icon-home home-icon"></i>
+		<a href="#">首页</a>
+	</li>
+	<li class="active">管理员信息管理</li>
+</block>
+
+<block name='page_header'>
+    <h1>
+		管理员信息管理
+		<small>
+			<i class="icon-double-angle-right"></i>
+			 信息添加
+		</small>
+	</h1>
+</block>
+
+<block name='main_content'>
+	<script type="text/javascript" src="__PUBLIC__/Dist/js/jquery.min.js"></script>
+	<script type="text/javascript">
+      var flag=true,flag1=false,flag2=false,flag3=false,flag4=false;
+      $(document).ready(function(){
+      function mySubmit(flag){
+         return flag;
+      }	
+      $('form').submit(function(){
+      	  if(au.val()=='' || ap.val()=='' || na.val()=='' || ph.val()==''){
+      	  	flag=false;
+      	  }else{
+      	  	flag=true;
+      	  }
+      	  if(flag && flag1 && flag2 && flag3 && flag4){
+      	  	return mySubmit(true);
+      	  }else{
+      	  	return mySubmit(false);
+      	  }
+      })
+      var au=$('#admin_user');
+      au.blur(function(){
+      	  if(au.val()==''){
+      	  	flag1=false;
+      	  	$('#cf_admin_user').css('color','red');
+      	  	$('#cf_admin_user').val('用户名不能为空');
+      	  }else if(!/^[0-9a-zA-Z_]{5,8}$/.test(au.val())){
+      	  	flag1=false;
+      	  	$('#cf_admin_user').css('color','red');
+      	  	$('#cf_admin_user').val('用户名由5-8位字母数字下划线组成');
+      	  }else{
+      	  	$.ajax({
+		  	  type:'post',
+		  	  url:'<{:U('adminUser')}>',
+		  	  data:'admin_user='+au.val(),
+	          success:function(data){
+	             if(data==0){
+	             	$('#cf_admin_user').css('color','red');
+	             	$('#cf_admin_user').val('用户名不能为空');
+	             	flag1=false;
+	             }else if(data==2){
+	             	$('#cf_admin_user').css('color','red');
+	             	$('#cf_admin_user').val('用户名已存在');
+	             	flag1=false;
+	             }else{
+	             	$('#cf_admin_user').css('color','green');
+	             	$('#cf_admin_user').val('用户名可以使用');
+	             	flag1=true;
+	             }
+
+	          },
+	          dataType:'json',
+		  })
+      	  }
+      	  
+      	})	
+        var ap=$('#admin_pass');
+		  ap.blur(function(){
+             if(ap.val()==''){
+             	$('#cf_admin_pass').val('密码不能为空');
+             	flag2=false;
+             }else if(!/^[0-9a-zA-Z_]{5,16}$/.test(ap.val())){
+      	  	    flag2=false;
+      	     	$('#cf_admin_pass').val('密码由5-16位字母数字下划线组成');
+      	     }else{
+      	     	flag2=true;
+      	     	$('#cf_admin_pass').val('');
+      	     }
+		})
+		var na=$('#name');
+		  na.blur(function(){
+             if(na.val()==''){
+             	$('#cf_name').val('姓名不能为空');
+             	flag3=false;
+             }else{
+      	     	flag3=true;
+      	     	$('#cf_name').val('');
+      	     }
+		})
+		var ph=$('#phone');
+		  ph.blur(function(){
+             if(ph.val()==''){
+             	$('#cf_phone').val('手机不能为空');
+             	flag4=false;
+             }else if(!/^[0-9]{11}$/.test(ph.val())){
+      	  	    flag4=false;
+      	  	    $('#cf_phone').val('填写正确手机号');
+      	     }else{
+      	     	flag4=true;
+      	     	$('#cf_phone').val('');
+      	     }
+		})  
+    }) 
+      
+    </script>
+
+		<div class="row">
+			<div class="col-xs-10">
+				<form class="form-horizontal" action='<{:U("insert")}>' method='post'>
+				  <div class="form-group">
+				    <label for="admin_user" class="col-sm-2 control-label">用户名</label>
+				    <div class="col-sm-4">
+				      <input type="text" id="admin_user" class="form-control"  name="admin_user">
+				    </div>
+				    <div class="col-sm-6">
+				      <input type="text" id="cf_admin_user" class="form-control" style="border:none; color:red">
+				    </div>
+				  </div>
+
+				  <div class="form-group">
+				    <label for="admin_pass" class="col-sm-2 control-label">密码</label>
+				    <div class="col-sm-4">
+				      <input type="text" id="admin_pass" class="form-control"  name="admin_pass">
+				    </div>
+				    <div class="col-sm-6">
+				      <input type="text" id="cf_admin_pass" class="form-control" style="border:none; color:red">
+				    </div>
+				  </div>
+
+				  <div class="form-group">
+				    <label for="name" class="col-sm-2 control-label">姓名</label>
+				    <div class="col-sm-4">
+				      <input type="text" id="name" class="form-control"  name="name">
+				    </div>
+				    <div class="col-sm-6">
+				      <input type="text" id="cf_name" class="form-control" style="border:none; color:red">
+				    </div>
+				  </div>
+
+				  <div class="form-group">
+				    <label for="phone" class="col-sm-2 control-label">手机</label>
+				    <div class="col-sm-4">
+				      <input type="text" id="phone" class="form-control"  name='phone'>
+				    </div>
+				    <div class="col-sm-6">
+				      <input type="text" id="cf_phone" class="form-control" style="border:none; color:red">
+				    </div>
+				  </div>
+				 
+				  <div class="form-group">
+				  	<label for="" class="col-sm-2 control-label">状态</label>
+				    <div class="col-sm-10">
+				          <input type="radio" name='status' value="1" checked> 正常 &nbsp;&nbsp;&nbsp;
+				          <input type="radio" name='status' value="0"> 屏蔽
+				    </div>
+				  </div>
+
+				  <div class="form-group">
+				  	<label for="" class="col-sm-2 control-label">等级</label>
+				    <div class="col-sm-10">
+				          <input type="radio" name="permission" value="1" checked> 普通管理员 &nbsp;&nbsp;&nbsp;
+				          <input type="radio" name="permission" value="3"> 超级管理员
+				    </div>
+				  </div>
+
+				  <div class="form-group">
+				    <div class="col-sm-10">
+				      <input type="hidden" class="form-control"  name="addtime" value="<?php echo time(); ?>">
+				    </div>
+				  </div>
+
+				  <div class="form-group">
+				    <div class="col-sm-offset-2 col-sm-10">
+				      <button type="submit" class="btn btn-default"onsubmit="return mySubmit(true);">添加</button>
+				    </div>
+				  </div>
+				</form>
+			</div>
+		</div>
+</block>

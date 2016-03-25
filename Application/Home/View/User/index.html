@@ -1,0 +1,231 @@
+<extend name='Layout/index' />
+
+<block name="main">
+<script src="__PUBLIC__/assets/js/bootstrap.min.js"></script>
+<script src="__PUBLIC__/fullAvatarEditor/scripts/fullAvatarEditor.js"></script>
+<script src="__PUBLIC__/fullAvatarEditor/scripts/swfobject.js"></script>
+<!--修改用户-->
+<div class="list-group">
+  <a href="#" class="list-group-item list-group-item-warning">
+    我的商城
+  </a>
+  <a href="<{:U('Cart/index')}>" class="list-group-item">购物车</a>
+  <a href="<{:U('Address/index')}>" class="list-group-item">收货地址</a>
+  <a href="<{:U('Order/index')}>" class="list-group-item">订单</a>
+  <a href="#" class="list-group-item">评价</a>
+</div>
+<div id="main_content">
+  <style>
+  .list-group{
+      width:200px;
+      float: left;
+      margin: 20px 0px 0px 40px;
+  }
+  .image{
+      width:72%;
+      height: 160px;
+      margin: 0 auto;
+      padding:0px 46px 0px 0px;
+  }
+  .image #uploadbox{
+      width:100%;
+      margin:0 auto;
+  }
+  .image #uploadbox #uploadimg{
+      width:100%;
+  }
+  .image #head img{
+      width:130px;
+      height:130px;
+      padding: 4px;
+      border: solid 1px #ccc;
+  } 
+  </style>
+
+<div class="image">
+  <div id="head" class="form-group">
+    <label for="user" class="col-sm-3 control-label">头像</label>
+      <div class="col-sm-6">
+        <img src="__ROOT__/Uploads/avatar/<{$avatar['largeavatar']}>">
+      </div>
+  </div>
+    <!-- Button trigger modal -->
+  <div class="form-group">  
+    <label for="" class="col-sm-3 control-label"></label>
+    <button type="button" class="col-sm-2 btn btn-info btn-sm" data-toggle="modal" data-target="#myModal">
+      上 传 头 像
+    </button>
+  </div>  
+    <br><br>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">上传 头像</h4>
+          </div>
+          <div class="modal-body">
+             <div id="uploadbox">
+                <p id="uploadimg">
+               本组件需要安装Flash Player后才可使用，请从<a href="http://www.adobe.com/go/getflashplayer">这里</a>下载安装。
+                </p>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+  <!--  
+      
+  -->
+ <!--
+  thinkPHP中使用 为了确保 能正确加载flash 必须在 fullAvatarEditor.js中 第76行的上面添加
+  var expressInstall = vars.expressInstall;
+  var file = vars.file;
+
+  -->
+  
+  <script>
+      swfobject.addDomLoadEvent(function () {
+                var swf = new fullAvatarEditor("uploadimg", {
+                        id: 'swf',
+                        upload_url: '<{:U("FuAvatarEditor/upAvatar")}>',
+                      // src_url: "./image/default-avatar.jpg",
+                        src_upload:2,
+                        file:'__PUBLIC__/fullAvatarEditor/fullAvatarEditor.swf',
+                        expressInstall:'__PUBLIC__/fullAvatarEditor/expressInstall.swf',
+                       // avatar_sizes:"100*100",
+                    }, function (msg) {
+                        switch(msg.code)
+                        {
+                            case 1 ://alert("页面成功加载了组件！");
+                              break;
+                            case 2 :// alert("已成功加载默认指定的图片到编辑面板。");
+                              break;
+                            case 3 :
+                                if(msg.type == 0)
+                                {
+                                    alert("摄像头已准备就绪且用户已允许使用。");
+                                }
+                                else if(msg.type == 1)
+                                {
+                                    alert("摄像头已准备就绪但用户未允许使用！");
+                                }
+                                else
+                                {
+                                    alert("摄像头被占用！");
+                                }
+                            break;
+                            case 5 :
+                                if(msg.type == 0)
+                                {
+                                    if(msg.content.sourceUrl)
+                                    {
+                                       // alert("原图片已成功保存至服务器，url为：\n" +　msg.content.sourceUrl);
+                                    }
+                                   // alert("头像已成功保存至服务器，url为：\n" + msg.content.avatarUrls.join("\n"));
+                                }else if(msg.type == 1){
+                  alert('头像上传失败,原因:'+msg.content.msg);
+                                }else if(msg.type == 2){
+                                  alert('指定路径不存在！');
+                                }else if(msg.type == 3){
+                                  alert("发送安全性错误！");
+                                }
+                            break;
+                        }
+                    }
+                );
+
+            });
+  </script>
+    <form class="form-horizontal"  action='<{:U("update")}>' method='post'>
+        <div class="form-group">
+          <label for="" class="col-sm-3 control-label">邮箱</label>
+            <div class="col-sm-6">
+              <input type="text" class="form-control" value="<{$item.email}>" disabled>
+            </div>
+         </div>
+        <div class="form-group">
+          <label for="user" class="col-sm-3 control-label">用户名</label>
+            <div class="col-sm-6">
+              <input type="text" class="form-control"  id="user" name="user" value="<{$item.user}>">
+            </div>
+         </div>
+         <div class="form-group">
+          <label for="pass" class="col-sm-3 control-label">密码</label>
+            <div class="col-sm-6">
+              <input type="password" class="form-control" name="pass">
+            </div>
+         </div>
+         <div class="form-group">
+          <label for="repass" class="col-sm-3 control-label">确认密码</label>
+            <div class="col-sm-6">
+              <input type="password" class="form-control" name="repass">
+            </div>
+         </div>
+         <div class="form-group">
+          <label for="name" class="col-sm-3 control-label">姓名</label>
+            <div class="col-sm-6">
+              <input type="text" class="form-control"  id="name" name="name" value="<{$item.name}>">
+            </div>
+         </div>
+         <div class="form-group">
+          <label for="phone" class="col-sm-3 control-label">手机</label>
+            <div class="col-sm-6">
+              <input type="text" class="form-control"  id="phone" name="phone" value="<{$item.phone}>">
+            </div>
+         </div>
+         <div class="form-group">
+      			<label for="" class="col-sm-3 control-label">性别</label>
+      				<div class="col-sm-6">
+      				    <input type="radio" name='sex' value="1"  <?php echo ($item['sex'
+      				          ]=='1')?'checked':''; ?>> 男 &nbsp;&nbsp;&nbsp;
+      				    <input type="radio" name='sex' value="0"  <?php echo ($item['display'
+      				          ]=='0')?'checked':''; ?>> 女
+      				</div>
+      	</div>
+		    <div class="form-group">
+          <label for="birth" class="col-sm-3 control-label">生日</label>
+            <div class="col-sm-6">
+              <input type="date" class="form-control"  id="birth" name="birth" min="1930-01-01" max="<?php echo date('Y-m-d', time()); ?>" value="<{$item.birth}>">
+            </div>
+         </div>
+         <div class="form-group">
+          <label for="address" class="col-sm-3 control-label">地址</label>
+            <div class="col-sm-6">
+              <input type="text" class="form-control"  id="address" name="address" value="<{$item.address}>">
+            </div>
+         </div>
+         <div class="form-group">
+          <label for="grade" class="col-sm-3 control-label">等级</label>
+            <div class="col-sm-6">
+              <input type="text" class="form-control"  id="grade" name="grade" value="<{$item.grade}>" disabled>
+            </div>
+         </div>
+         <div class="form-group">
+          <label for="addtime" class="col-sm-3 control-label">注册时间</label>
+            <div class="col-sm-6">
+              <input type="text" class="form-control"  id="addtime" name="addtime" value="<?php echo date('Y-m-d H:i:s', $item['addtime']); ?>" disabled>
+            </div>
+         </div>
+        <div class="form-group">
+          <label for="id" class="col-sm-3 control-label"></label>
+            <div class="col-sm-6">
+              <input type="hidden" class="form-control"  id="id" name="id" value="<{$item.id}>">
+            </div>
+         </div> 
+        <div class="form-group">
+          <label for="" class="col-sm-3 control-label"></label>
+          <div class="col-sm-3">
+            <button type="submit" id="submit" class="btn btn-warning">保 存</button>
+          </div>
+        </div>
+    </form>
+
+</div>
+
+</block>

@@ -1,0 +1,176 @@
+<extend name='Layout/index' />
+
+<block name='breadcrumb'>
+	<li>
+		<i class="icon-home home-icon"></i>
+		<a href="#">首页</a>
+	</li>
+	<li class="active">管理员信息管理</li>
+</block>
+
+<block name='page_header'>
+    <h1>
+		管理员信息管理
+		<small>
+			<i class="icon-double-angle-right"></i>
+			 信息修改
+		</small>
+	</h1>
+</block>
+
+<block name='main_content'>
+	<script type="text/javascript" src="__PUBLIC__/Dist/js/jquery.min.js"></script>
+	<script type="text/javascript">
+      var flag=true,flag1=true,flag2=true,flag3=true;
+      $(document).ready(function(){
+      function mySubmit(flag){
+         return flag;
+      }	
+      $('form').submit(function(){
+      	  if(au.val()=='' || na.val()=='' || ph.val()==''){
+      	  	flag=false;
+      	  }else{
+      	  	flag=true;
+      	  }
+      	  if(flag && flag1 && flag2 && flag3){
+      	  	return mySubmit(true);
+      	  }else{
+      	  	return mySubmit(false);
+      	  }
+      })
+      var au=$('#admin_user');
+      au.blur(function(){
+      	  if(au.val()==''){
+      	  	flag1=false;
+      	  	$('#cf_admin_user').css('color','red');
+      	  	$('#cf_admin_user').val('用户名不能为空');
+      	  }else if(!/^[0-9a-zA-Z_]{5,8}$/.test(au.val())){
+      	  	flag1=false;
+      	  	$('#cf_admin_user').css('color','red');
+      	  	$('#cf_admin_user').val('用户名由5-8位字母数字下划线组成');
+      	  }else{
+      	  	$.ajax({
+		  	  type:'post',
+		  	  url:'<{:U('adminUser')}>',
+		  	  data:'admin_user='+au.val(),
+	          success:function(data){
+	             if(data==0){
+	             	$('#cf_admin_user').css('color','red');
+	             	$('#cf_admin_user').val('用户名不能为空');
+	             	flag1=false;
+	             }else if(data==2){
+	             	$('#cf_admin_user').css('color','red');
+	             	$('#cf_admin_user').val('用户名已存在');
+	             	flag1=false;
+	             }else{
+	             	$('#cf_admin_user').css('color','green');
+	             	$('#cf_admin_user').val('用户名可以使用');
+	             	flag1=true;
+	             }
+
+	          },
+	          dataType:'json',
+		  })
+      	  }
+      	  
+      	})	
+        var na=$('#name');
+		  na.blur(function(){
+             if(na.val()==''){
+             	$('#cf_name').val('姓名不能为空');
+             	flag2=false;
+             }else{
+      	     	flag2=true;
+      	     	$('#cf_name').val('');
+      	     }
+		})
+		var ph=$('#phone');
+		  ph.blur(function(){
+             if(ph.val()==''){
+             	$('#cf_phone').val('手机不能为空');
+             	flag3=false;
+             }else if(!/^[0-9]{11}$/.test(ph.val())){
+      	  	    flag3=false;
+      	  	    $('#cf_phone').val('填写正确手机号');
+      	     }else{
+      	     	flag3=true;
+      	     	$('#cf_phone').val('');
+      	     }
+		})  
+    }) 
+      
+    </script>
+
+		<div class="row">
+			<div class="col-xs-10">
+				<form class="form-horizontal" action='<{:U("update")}>' method='post'>
+				  <div class="form-group">
+				    <label for="admin_user" class="col-sm-2 control-label">用户名</label>
+				    <div class="col-sm-4">
+				      <input type="text" id="admin_user" class="form-control"  name="admin_user" value="<{$item.admin_user}>">
+				    </div>
+				    <div class="col-sm-6">
+				      <input type="text" id="cf_admin_user" class="form-control" style="border:none; color:red">
+				    </div>
+				  </div>
+                  
+                  <div class="form-group">
+				    <label for="name" class="col-sm-2 control-label">姓名</label>
+				    <div class="col-sm-4">
+				      <input type="text" id="name" class="form-control"  name="name" value="<{$item.name}>">
+				    </div>
+				    <div class="col-sm-6">
+				      <input type="text" id="cf_name" class="form-control" style="border:none; color:red">
+				    </div>
+				  </div>
+
+				  <div class="form-group">
+				    <label for="phone" class="col-sm-2 control-label">手机</label>
+				    <div class="col-sm-4">
+				      <input type="text" id="phone" class="form-control"  name='phone' value="<{$item.phone}>">
+				    </div>
+				    <div class="col-sm-6">
+				      <input type="text" id="cf_phone" class="form-control" style="border:none; color:red">
+				    </div>
+				  </div>
+				 
+				  <div class="form-group">
+				  	<label for="" class="col-sm-2 control-label">状态</label>
+				    <div class="col-sm-10">
+				          <input type="radio" name='status' value="1"  <?php echo ($item['status'
+				          ]=='1')?'checked':''; ?>> 正常 &nbsp;&nbsp;&nbsp;
+				          <input type="radio" name='status' value="0"  <?php echo ($item['status'
+				          ]=='0')?'checked':''; ?>> 屏蔽
+				    </div>
+				  </div>
+
+				  <div class="form-group">
+				  	<label for="" class="col-sm-2 control-label">等级</label>
+				    <div class="col-sm-10">
+				          <input type="radio" name="permission" value="1" <?php echo ($item['permission'
+				          ]=='1')?'checked':''; ?>> 普通管理员 &nbsp;&nbsp;&nbsp;
+				          <input type="radio" name="permission" value="3" <?php echo ($item['permission'
+				          ]=='3')?'checked':''; ?>> 超级管理员
+				    </div>
+				  </div>
+
+				  <div class="form-group">
+				  	<label for="" class="col-sm-2 control-label">添加时间</label>
+				    <div class="col-sm-4">
+				      <input type="text" class="form-control"  name="addtime" value="<?php echo date('Y-m-d H:i:s',$item['addtime']); ?>" disabled>
+				    </div>
+				  </div>
+                  
+                  <input type="hidden" name="id" value="<{$item.id}>">
+                  <input type="hidden" name="p" value="<{$item.p}>">
+                  <input type="hidden" name="s_search" value="<{$s_search}>">
+                  <input type="hidden" name="s_value" value="<{$s_value}>">
+                  <div class="form-group">
+				    <div class="col-sm-offset-2 col-sm-10">
+				      <button type="submit" class="btn btn-default"onsubmit="return mySubmit(true);">修改</button>
+				    </div>
+				  </div>
+				</form>
+			</div>
+		</div>
+</block>

@@ -1,0 +1,83 @@
+<extend name='Layout/index' />
+
+<block name='breadcrumb'>
+	<li>
+		<i class="icon-home home-icon"></i>
+		<a href="#">首页</a>
+	</li>
+	<li class="active">用户信息管理</li>
+</block>
+
+<block name='page_header'>
+	<h1>
+		用户信息管理
+		<small>
+			<i class="icon-double-angle-right"></i>
+			 信息查询
+		</small>
+	</h1>
+</block>
+
+<block name='main_content'>
+	<style>
+    th,td{text-align: center;}
+	</style>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Dist/css/pagination.css">
+	<script type="text/javascript" src="__PUBLIC__/Dist/js/jquery.min.js"></script>
+
+	
+	<div class="search" style="margin-bottom:16px;">
+	  <form action="<{:U("User/index")}>" method="get">	
+	    <input type="text" id="search" name="search" value="<{$search}>" placeholder="用户名">
+	    <button type="submit">查询</button>
+    </div>
+
+    <div class="row">
+    	<div class="col-md-12">
+			<table class='table table-striped table-bordered table-hover'>
+			<thead>
+				<tr>
+					<th>id</th>
+					<th>用户名</th>
+					<th>姓名</th>
+					<th>电话</th>
+					<th>邮箱</th>
+					<th>性别</th>
+					<th>等级</th>
+					<th>状态</th>
+					<th>添加时间</th>
+					<th>操作</th>
+				</tr>
+			</thead>
+			<tbody>
+				<volist name='list' id='vo'>
+				<tr>
+					<td><{$vo.id}></td>
+					<td><{$vo.user}></td>
+					<td><{$vo.name}></td>
+					<td><{$vo.phone}></td>
+					<td><{$vo.email}></td>
+					<td><?php echo $vo['sex']==1?'男':'女' ?></td>
+					<td><{$vo.grade}></td>
+					<td><?php echo $vo['display']==1?'正常':'屏蔽' ?></td>
+					<td><?php echo date('Y-m-d H:i:s',$vo['addtime']); ?></td>
+					<td>
+						<a href="<{:U('delete', array('id'=>$vo['id'],'p'=>$_GET['p'],'search'=>$search))}>" class="btn btn-danger">删除</a>
+<if condition="$vo['display'] eq 1">
+	<a href="<{:U('display2', array('id'=>$vo['id'],'p'=>$_GET['p'],'search'=>$search))}>" class="btn btn-warning">屏蔽</a>
+	<else />
+	<a href="<{:U('display2', array('id'=>$vo['id'],'p'=>$_GET['p'],'search'=>$search))}>" class="btn btn-success">解除</a>
+</if>							
+
+                        
+						<a href="<{:U('edit', array('id'=>$vo['id'],'p'=>$_GET['p'],'search'=>$search))}>" class="btn btn-info">修改信息</a>
+					</td>
+				</tr>  
+				</volist>
+			</tbody>
+		</table>
+		<div class="pagination" style="float:right;margin-right:60px;"><ul><{$page}></ul></div>                
+		</div>
+	</div>
+		
+</block>

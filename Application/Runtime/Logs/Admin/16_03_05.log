@@ -1,0 +1,795 @@
+[ 2016-03-05T22:12:46+08:00 ] 127.0.0.1 /huawei/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002163s ]
+
+[ 2016-03-05T22:12:47+08:00 ] 127.0.0.1 /huawei/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001840s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000456s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002276s ]
+
+[ 2016-03-05T22:12:52+08:00 ] 127.0.0.1 /huawei/index.php/Admin/Public/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002275s ]
+SQL: SHOW COLUMNS FROM `huawei_admin` [ RunTime:0.1225s ]
+SQL: SELECT * FROM `huawei_admin` WHERE `admin_user` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000394s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001321s ]
+
+[ 2016-03-05T22:12:57+08:00 ] 127.0.0.1 /huawei/index.php/Admin/Public/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002035s ]
+SQL: SHOW COLUMNS FROM `huawei_admin` [ RunTime:0.0179s ]
+SQL: SELECT * FROM `huawei_admin` WHERE `admin_user` = 'admin' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000430s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000859s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001079s ]
+
+[ 2016-03-05T22:13:00+08:00 ] 127.0.0.1 /huawei/index.php/Admin/Public/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002358s ]
+SQL: SHOW COLUMNS FROM `huawei_admin` [ RunTime:0.0162s ]
+SQL: SELECT * FROM `huawei_admin` WHERE `admin_user` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000393s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017458s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001510s ]
+
+[ 2016-03-05T22:13:04+08:00 ] 127.0.0.1 /huawei/index.php/Admin/Public/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002473s ]
+SQL: SHOW COLUMNS FROM `huawei_admin` [ RunTime:0.0164s ]
+SQL: SELECT * FROM `huawei_admin` WHERE `admin_user` = 'admin' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `huawei_work` [ RunTime:0.0804s ]
+SQL: SHOW COLUMNS FROM `huawei_player_work` [ RunTime:0.0582s ]
+SQL: SHOW COLUMNS FROM `huawei_admin_player` [ RunTime:0.0545s ]
+SQL: SELECT `controller_name`,`do_name` FROM `huawei_work` WHERE ( id in( SELECT `work_id` FROM `huawei_player_work` WHERE ( player_id in ( SELECT `player_id` FROM `huawei_admin_player` WHERE `admin_id` = '1'  ) )  ) )  [ RunTime:0.0991s ]
+
+[ 2016-03-05T22:13:05+08:00 ] 127.0.0.1 /huawei/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001287s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002569s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003622s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.128841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.129243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002264s ]
+
+[ 2016-03-05T22:13:09+08:00 ] 127.0.0.1 /huawei/index.php/Admin/Master/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000983s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001398s ]
+SQL: SHOW COLUMNS FROM `huawei_admin` [ RunTime:0.0187s ]
+SQL: SHOW COLUMNS FROM `huawei_player` [ RunTime:0.0703s ]
+SQL: SHOW COLUMNS FROM `huawei_admin_player` [ RunTime:0.0135s ]
+SQL: SHOW COLUMNS FROM `huawei_admin` [ RunTime:0.0137s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `huawei_admin` LIMIT 1   [ RunTime:0.0417s ]
+SQL: SELECT * FROM `huawei_admin` ORDER BY id asc LIMIT 0,5   [ RunTime:0.0014s ]
+SQL: SELECT `player_id` FROM `huawei_admin_player` WHERE `admin_id` = '1'  [ RunTime:0.0010s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '1' AND `status` = 1 LIMIT 1   [ RunTime:0.0158s ]
+SQL: SELECT `player_id` FROM `huawei_admin_player` WHERE `admin_id` = '2'  [ RunTime:0.0009s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '2' AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `player_id` FROM `huawei_admin_player` WHERE `admin_id` = '3'  [ RunTime:0.0010s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '5' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `player_id` FROM `huawei_admin_player` WHERE `admin_id` = '4'  [ RunTime:0.0012s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '4' AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `player_id` FROM `huawei_admin_player` WHERE `admin_id` = '5'  [ RunTime:0.0005s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '4' AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '5' AND `status` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '6' AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '7' AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000746s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000979s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\f43b5e98c1255207c47d55b925ca8986.php 第 736 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\f43b5e98c1255207c47d55b925ca8986.php 第 737 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\f43b5e98c1255207c47d55b925ca8986.php 第 738 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\f43b5e98c1255207c47d55b925ca8986.php 第 739 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\f43b5e98c1255207c47d55b925ca8986.php 第 736 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\f43b5e98c1255207c47d55b925ca8986.php 第 737 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\f43b5e98c1255207c47d55b925ca8986.php 第 738 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\f43b5e98c1255207c47d55b925ca8986.php 第 739 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\f43b5e98c1255207c47d55b925ca8986.php 第 736 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\f43b5e98c1255207c47d55b925ca8986.php 第 737 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\f43b5e98c1255207c47d55b925ca8986.php 第 738 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\f43b5e98c1255207c47d55b925ca8986.php 第 739 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\f43b5e98c1255207c47d55b925ca8986.php 第 736 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\f43b5e98c1255207c47d55b925ca8986.php 第 737 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\f43b5e98c1255207c47d55b925ca8986.php 第 738 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\f43b5e98c1255207c47d55b925ca8986.php 第 739 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\f43b5e98c1255207c47d55b925ca8986.php 第 736 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\f43b5e98c1255207c47d55b925ca8986.php 第 737 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\f43b5e98c1255207c47d55b925ca8986.php 第 738 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\f43b5e98c1255207c47d55b925ca8986.php 第 739 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.113485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001536s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001516s ]
+
+[ 2016-03-05T22:13:11+08:00 ] 127.0.0.1 /huawei/index.php/Admin/Master/allpass/id/1/s_search/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002320s ]
+SQL: SHOW COLUMNS FROM `huawei_admin` [ RunTime:0.0154s ]
+SQL: SHOW COLUMNS FROM `huawei_player` [ RunTime:0.0153s ]
+SQL: SHOW COLUMNS FROM `huawei_admin_player` [ RunTime:0.0157s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001547s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.126264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.126890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002839s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002115s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002412s ]
+
+[ 2016-03-05T22:13:22+08:00 ] 127.0.0.1 /huawei/index.php/Admin/Master/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002445s ]
+SQL: SHOW COLUMNS FROM `huawei_admin` [ RunTime:0.0184s ]
+SQL: SHOW COLUMNS FROM `huawei_player` [ RunTime:0.0184s ]
+SQL: SHOW COLUMNS FROM `huawei_admin_player` [ RunTime:0.0186s ]
+SQL: SHOW COLUMNS FROM `huawei_admin` [ RunTime:0.0206s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\huawei\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\huawei\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `huawei_admin` SET `admin_pass`='21232f297a57a5a743894a0e4a801fc3' WHERE `id` = 1 [ RunTime:0.0874s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000440s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003085s ]
+
+[ 2016-03-05T22:13:24+08:00 ] 127.0.0.1 /huawei/index.php/Admin/Master/index/p/1/search/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002830s ]
+SQL: SHOW COLUMNS FROM `huawei_admin` [ RunTime:0.0139s ]
+SQL: SHOW COLUMNS FROM `huawei_player` [ RunTime:0.0152s ]
+SQL: SHOW COLUMNS FROM `huawei_admin_player` [ RunTime:0.0143s ]
+SQL: SHOW COLUMNS FROM `huawei_admin` [ RunTime:0.0138s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `huawei_admin` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `huawei_admin` ORDER BY id asc LIMIT 0,5   [ RunTime:0.0007s ]
+SQL: SELECT `player_id` FROM `huawei_admin_player` WHERE `admin_id` = '1'  [ RunTime:0.0006s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '1' AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `player_id` FROM `huawei_admin_player` WHERE `admin_id` = '2'  [ RunTime:0.0008s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '2' AND `status` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `player_id` FROM `huawei_admin_player` WHERE `admin_id` = '3'  [ RunTime:0.0006s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '5' AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `player_id` FROM `huawei_admin_player` WHERE `admin_id` = '4'  [ RunTime:0.0006s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '4' AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `player_id` FROM `huawei_admin_player` WHERE `admin_id` = '5'  [ RunTime:0.0006s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '4' AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '5' AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '6' AND `status` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '7' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000782s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001017s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001689s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001959s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002678s ]
+
+[ 2016-03-05T22:25:33+08:00 ] 127.0.0.1 /huawei/index.php/Admin/Master/index/p/1/search/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002917s ]
+SQL: SHOW COLUMNS FROM `huawei_admin` [ RunTime:0.0174s ]
+SQL: SHOW COLUMNS FROM `huawei_player` [ RunTime:0.0146s ]
+SQL: SHOW COLUMNS FROM `huawei_admin_player` [ RunTime:0.0166s ]
+SQL: SHOW COLUMNS FROM `huawei_admin` [ RunTime:0.0158s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `huawei_admin` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `huawei_admin` ORDER BY id asc LIMIT 0,5   [ RunTime:0.0008s ]
+SQL: SELECT `player_id` FROM `huawei_admin_player` WHERE `admin_id` = '1'  [ RunTime:0.0008s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '1' AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `player_id` FROM `huawei_admin_player` WHERE `admin_id` = '2'  [ RunTime:0.0005s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '2' AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `player_id` FROM `huawei_admin_player` WHERE `admin_id` = '3'  [ RunTime:0.0005s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '5' AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `player_id` FROM `huawei_admin_player` WHERE `admin_id` = '4'  [ RunTime:0.0005s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '4' AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `player_id` FROM `huawei_admin_player` WHERE `admin_id` = '5'  [ RunTime:0.0005s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '4' AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '5' AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '6' AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '7' AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000744s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000995s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076807s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001364s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002111s ]
+
+[ 2016-03-05T22:25:39+08:00 ] 127.0.0.1 /huawei/index.php/Admin/Master/index/p/1/search/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002144s ]
+SQL: SHOW COLUMNS FROM `huawei_admin` [ RunTime:0.0228s ]
+SQL: SHOW COLUMNS FROM `huawei_player` [ RunTime:0.0196s ]
+SQL: SHOW COLUMNS FROM `huawei_admin_player` [ RunTime:0.0172s ]
+SQL: SHOW COLUMNS FROM `huawei_admin` [ RunTime:0.0196s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `huawei_admin` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `huawei_admin` ORDER BY id asc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SELECT `player_id` FROM `huawei_admin_player` WHERE `admin_id` = '1'  [ RunTime:0.0008s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '1' AND `status` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `player_id` FROM `huawei_admin_player` WHERE `admin_id` = '2'  [ RunTime:0.0005s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '2' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `player_id` FROM `huawei_admin_player` WHERE `admin_id` = '3'  [ RunTime:0.0006s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '5' AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `player_id` FROM `huawei_admin_player` WHERE `admin_id` = '4'  [ RunTime:0.0010s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '4' AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `player_id` FROM `huawei_admin_player` WHERE `admin_id` = '5'  [ RunTime:0.0009s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '4' AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '5' AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '6' AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '7' AND `status` = 1 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000829s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001248s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001845s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001969s ]
+
+[ 2016-03-05T22:25:42+08:00 ] 127.0.0.1 /huawei/index.php/Admin/Master/index/p/1/search/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002256s ]
+SQL: SHOW COLUMNS FROM `huawei_admin` [ RunTime:0.0147s ]
+SQL: SHOW COLUMNS FROM `huawei_player` [ RunTime:0.0144s ]
+SQL: SHOW COLUMNS FROM `huawei_admin_player` [ RunTime:0.0155s ]
+SQL: SHOW COLUMNS FROM `huawei_admin` [ RunTime:0.0157s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `huawei_admin` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `huawei_admin` ORDER BY id asc LIMIT 0,5   [ RunTime:0.0009s ]
+SQL: SELECT `player_id` FROM `huawei_admin_player` WHERE `admin_id` = '1'  [ RunTime:0.0011s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '1' AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `player_id` FROM `huawei_admin_player` WHERE `admin_id` = '2'  [ RunTime:0.0005s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '2' AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `player_id` FROM `huawei_admin_player` WHERE `admin_id` = '3'  [ RunTime:0.0006s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '5' AND `status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `player_id` FROM `huawei_admin_player` WHERE `admin_id` = '4'  [ RunTime:0.0005s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '4' AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `player_id` FROM `huawei_admin_player` WHERE `admin_id` = '5'  [ RunTime:0.0009s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '4' AND `status` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '5' AND `status` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '6' AND `status` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '7' AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000972s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001329s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001220s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001408s ]
+
+[ 2016-03-05T22:28:06+08:00 ] 127.0.0.1 /huawei/index.php/Admin/Master/index/p/1/search/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002083s ]
+SQL: SHOW COLUMNS FROM `huawei_admin` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `huawei_player` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `huawei_admin_player` [ RunTime:0.0138s ]
+SQL: SHOW COLUMNS FROM `huawei_admin` [ RunTime:0.0155s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `huawei_admin` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `huawei_admin` ORDER BY id asc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SELECT `player_id` FROM `huawei_admin_player` WHERE `admin_id` = '1'  [ RunTime:0.0005s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '1' AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `player_id` FROM `huawei_admin_player` WHERE `admin_id` = '2'  [ RunTime:0.0004s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '2' AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `player_id` FROM `huawei_admin_player` WHERE `admin_id` = '3'  [ RunTime:0.0004s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '5' AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `player_id` FROM `huawei_admin_player` WHERE `admin_id` = '4'  [ RunTime:0.0004s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '4' AND `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `player_id` FROM `huawei_admin_player` WHERE `admin_id` = '5'  [ RunTime:0.0011s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '4' AND `status` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '5' AND `status` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '6' AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `player_name` FROM `huawei_player` WHERE `player_id` = '7' AND `status` = 1 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000758s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001017s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001732s ]
+
+[ 2016-03-05T22:28:09+08:00 ] 127.0.0.1 /huawei/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002076s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `huawei_user` LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-05T22:28:38+08:00 ] 127.0.0.1 /huawei/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004866s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0218s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `huawei_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `huawei_user` ORDER BY id asc LIMIT 0,5   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001245s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001652s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 750 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 750 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 750 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 750 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 750 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 750 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 750 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 750 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 750 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 750 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 750 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 750 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002863s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002041s ]
+
+[ 2016-03-05T22:28:46+08:00 ] 127.0.0.1 /huawei/index.php/Admin/User/index.html?search=1&message=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001963s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0148s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `huawei_user` WHERE `user` LIKE '%1%' LIMIT 1   [ RunTime:0.0318s ]
+SQL: SELECT * FROM `huawei_user` WHERE `user` LIKE '%1%' ORDER BY id asc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000785s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001029s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074084s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001609s ]
+
+[ 2016-03-05T22:31:24+08:00 ] 127.0.0.1 /huawei/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003494s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0257s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `huawei_user` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `huawei_user` ORDER BY id asc LIMIT 0,5   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000935s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001228s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 750 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 750 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 750 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 750 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 750 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 750 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 750 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 750 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 750 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 750 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 750 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 750 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 750 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 750 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 750 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.130732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.131032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001901s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002473s ]
+
+[ 2016-03-05T22:32:14+08:00 ] 127.0.0.1 /huawei/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002355s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `huawei_user` LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `huawei_user` ORDER BY id asc LIMIT 0,5   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000758s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000997s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074415s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001471s ]
+
+[ 2016-03-05T23:55:34+08:00 ] 127.0.0.1 /huawei/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001413s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001488s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.106755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001617s ]
+
+[ 2016-03-05T23:55:38+08:00 ] 127.0.0.1 /huawei/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001461s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0172s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `huawei_user` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `huawei_user` ORDER BY id asc LIMIT 0,5   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001508s ]
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined index: p D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001900s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002445s ]
+
+[ 2016-03-05T23:55:42+08:00 ] 127.0.0.1 /huawei/index.php/Admin/User/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001531s ]
+SQL: SHOW COLUMNS FROM `huawei_user` [ RunTime:0.0144s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `huawei_user` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `huawei_user` ORDER BY id asc LIMIT 5,5   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000919s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001442s ]
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 747 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 748 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+NOTIC: [8] Undefined variable: s D:\wamp\www\huawei\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 749 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072598s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001512s ]
+

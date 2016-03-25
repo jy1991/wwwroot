@@ -1,0 +1,49 @@
+<extend name="Layout/index" />
+<block name="breadcrumb">
+	<li>
+		<i class="icon-home home-icon"></i>
+		<a href="#">首页</a>
+	</li>
+	<li class="active">商品管理</li>
+</block>
+
+<block name="page_header">
+	<h1>
+		图片管理
+		<small>
+			<i class="icon-double-angle-right"></i>
+			 修改图片
+		</small>
+	</h1>
+</block>
+<block name="main_content">
+
+    <div class="row">
+    	<div class="col-md-12">
+	        <form action="<{:U('update_img')}>" method='post' class="form-horizontal">
+				<br>
+                <div class="form-group" style="">
+					<label for="" class="col-sm-2 control-label">是否封面：</label>
+					<div class="col-sm-4">
+						<input type="radio" name="is_face" value="1" <?php echo ($item['is_face']==1)?'checked':'' ?>> 是&nbsp;&nbsp;&nbsp;
+						<input type="radio" name="is_face"  value="0" <?php echo ($item['is_face']==0)?'checked':'' ?>> 否
+					</div>
+				</div>
+
+				<div class="form-group" style="">
+					<label for="" class="col-sm-2 control-label">图片描述：</label>
+					<div class="col-sm-4">
+						<input type="text" name="describe" class="form-control" value="<{$item.describe}>">
+					</div>
+				</div>
+				<input type="hidden" name="id" value="<{$item.id}>">
+				<div class="form-group">
+				    <div class="col-sm-offset-2 col-sm-4">
+				      <button type="submit" class="btn btn-default">修 改</button>
+				    </div>
+				</div>
+		
+			</form>
+		</div>
+	</div>
+</block>

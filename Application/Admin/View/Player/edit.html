@@ -1,0 +1,60 @@
+<extend name="Layout/index" />
+<block name="breadcrumb">
+	<li>
+		<i class="icon-home home-icon"></i>
+		<a href="#">首页</a>
+	</li>
+	<li class="active">角色管理</li>
+</block>
+
+<block name="page_header">
+	<h1>
+		角色管理
+		<small>
+			<i class="icon-double-angle-right"></i>
+			 角色修改
+		</small>
+	</h1>
+</block>
+<block name="main_content">
+    <div class="row">
+		<div class="col-md-12">
+			<form action="<{:U('Player/update')}>" method='post' class="form-horizontal">
+                <div class="form-group" style="">
+					<label for="" class="col-sm-2 control-label">ID：</label>
+					<div class="col-sm-4">
+						<input type="text" name="player_id" class="form-control" value="<{$item.player_id}>">
+					</div>
+				</div>
+				<div class="form-group" style="">
+					<label for="" class="col-sm-2 control-label">角色名：</label>
+					<div class="col-sm-4">
+						<input type="text" name="player_name" class="form-control" value="<{$item.player_name}>">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="" class="col-sm-2 control-label">说明：</label>
+					<div class="col-sm-4">
+						<input  type="text" name="describe" class="form-control" value="<{$item.describe}>">
+					</div>
+				</div>
+				
+				<div class="form-group">
+					<label for="" class="col-sm-2 control-label">状态：</label>
+					<div class="col-sm-4">
+							<input type="radio" name="status" value="1" <?php echo ($item['status'
+				          ]=='1')?'checked':''; ?>>&nbsp;启用&nbsp;&nbsp;&nbsp;
+							<input type="radio" name="status" value="0" <?php echo ($item['status'
+				          ]=='0')?'checked':''; ?>>&nbsp;禁用
+					</div>
+				</div>
+				<div class="form-group">
+				    <div class="col-sm-offset-2 col-sm-4">
+				      <button type="submit" class="btn btn-default">修 改</button>
+				    </div>
+				</div>
+		
+			</form>
+		</div>
+	</div>
+</block>

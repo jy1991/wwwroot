@@ -1,0 +1,58 @@
+<extend name='Layout/index' />
+
+<block name='breadcrumb'>
+	<li>
+		<i class="icon-home home-icon"></i>
+		<a href="#">首页</a>
+	</li>
+	<li class="active">角色管理</li>
+</block>
+
+<block name='page_header'>
+	<h1>
+		角色管理
+		<small>
+			<i class="icon-double-angle-right"></i>
+			 角色列表
+		</small>
+	</h1>
+</block>
+
+<block name='main_content'>
+	<style>
+    th,td{text-align: center;}
+	</style>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Dist/css/pagination.css">
+	<div class="row">
+		<div class="col-md-12">
+			<table class='table table-striped table-bordered table-hover'>
+			<thead>
+				<tr>
+					<th>id</th>
+					<th>角色名</th>
+					<th>说明</th>
+					<th>状态</th>
+					<th>操作</th>
+				</tr>
+			</thead>
+			<tbody>
+				<volist name='list' id='vo'>
+				<tr>
+					<td><{$vo.player_id}></td>
+					<td><{$vo.player_name}></td>
+					<td><{$vo.describe}></td>
+					<td><?php echo $vo['status']==1?'正常':'关闭' ?></td>
+					<td>
+						<a href="<{:U('delete', array('id'=>$vo['player_id']))}>" class="btn btn-danger">删除</a>
+						<a href="<{:U('edit', array('id'=>$vo['player_id']))}>" class="btn btn-success">修改</a>
+						<a href="<{:U('work', array('id'=>$vo['player_id'],'name'=>$vo['player_name']))}>" class="btn btn-info">分配权限</a>
+					</td>
+				</tr>  
+				</volist>
+			</tbody>
+		</table>
+
+	</div>
+		
+
+</block>

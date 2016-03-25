@@ -1,0 +1,30 @@
+ input,button,select,textarea{outline:none} 
+ textarea{resize:none} 
+
+#main_product{
+	width:1200px;
+	height:auto;
+	margin:0 auto;
+	padding-top: 20px;
+}
+#tsShopContainer{
+	width:540px;
+	height: 500px;
+	float: left;
+}
+#element_id{
+	float:right;
+	width:660px;
+	height: auto;
+	border:solid 1px #ccc;
+}
+#element_id form{
+	padding:20px;
+	font-family:'微软雅黑';
+	font-size: 13px;
+	color:#666;
+}
+#element_id form input{
+	border: none;
+    background:#fff;
+}

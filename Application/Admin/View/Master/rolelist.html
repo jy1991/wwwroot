@@ -1,0 +1,46 @@
+<extend name="Layout/index" />
+<block name="breadcrumb">
+	<li>
+		<i class="icon-home home-icon"></i>
+		<a href="#">首页</a>
+	</li>
+	<li class="active">用户管理</li>
+</block>
+
+<block name="page_header">
+	<h1>
+		用户管理
+		<small>
+			<i class="icon-double-angle-right"></i>
+			 分配权限
+		</small>
+	</h1>
+</block>
+<block name="main_content">
+	<div class="row">
+		<div class="col-md-12">
+			<p>
+				给 <span class="label label-success" style="font-size:16px; height:26px;"><{$users.admin_user}></span> 分配角色
+			</p>
+			
+			<form action="<{:U('Master/saverole')}>" method='post'>
+			<p style="width:600px">
+				<volist name="list" id="vo">
+					<input type="checkbox" name="role[]"  value="<{$vo.player_id}>" <if condition="in_array($vo['player_id'],$role) eq true">checked</if>><{$vo.player_name}>
+					&nbsp;
+					&nbsp;
+					&nbsp;
+				</volist>
+			</p>
+			<input type="hidden" name="uid" value="<{$users.id}>">
+			<input type="hidden" name="p" value="<{$p}>">
+            <input type="hidden" name="s_search" value="<{$s_search}>">
+            <input type="hidden" name="s_value" value="<{$s_value}>">			
+			<input type="submit" value="保存" class="btn btn-primary">
+
+			</form>
+	    </div>
+	</div>
+
+	
+</block>

@@ -1,0 +1,112 @@
+<extend name='Layout/index' />
+
+<block name='breadcrumb'>
+	<li>
+		<i class="icon-home home-icon"></i>
+		<a href="#">首页</a>
+	</li>
+	<li class="active">用户信息管理</li>
+</block>
+
+<block name='page_header'>
+    <h1>
+		用户信息管理
+		<small>
+			<i class="icon-double-angle-right"></i>
+			 信息修改
+		</small>
+	</h1>
+</block>
+
+<block name='main_content'>
+  <div class="row">
+	<div class="col-xs-10">
+		<form class="form-horizontal" action='<{:U("update")}>' method='post'>
+		<div class="form-group">
+          <label for="" class="col-sm-3 control-label">邮箱</label>
+            <div class="col-sm-6">
+              <input type="text" class="form-control" value="<{$item.email}>" disabled>
+            </div>
+         </div>
+        <div class="form-group">
+          <label for="user" class="col-sm-3 control-label">用户名</label>
+            <div class="col-sm-6">
+              <input type="text" class="form-control"  id="user" name="user" value="<{$item.user}>">
+            </div>
+         </div>
+         <div class="form-group">
+          <label for="pass" class="col-sm-3 control-label">密码</label>
+            <div class="col-sm-6">
+              <input type="password" class="form-control" name="pass">
+            </div>
+         </div>
+         <div class="form-group">
+          <label for="repass" class="col-sm-3 control-label">确认密码</label>
+            <div class="col-sm-6">
+              <input type="password" class="form-control" name="repass">
+            </div>
+         </div>
+         <div class="form-group">
+          <label for="name" class="col-sm-3 control-label">姓名</label>
+            <div class="col-sm-6">
+              <input type="text" class="form-control"  id="name" name="name" value="<{$item.name}>">
+            </div>
+         </div>
+         <div class="form-group">
+          <label for="phone" class="col-sm-3 control-label">手机</label>
+            <div class="col-sm-6">
+              <input type="text" class="form-control"  id="phone" name="phone" value="<{$item.phone}>">
+            </div>
+         </div>
+         <div class="form-group">
+      			<label for="" class="col-sm-3 control-label">性别</label>
+      				<div class="col-sm-6">
+      				    <input type="radio" name='sex' value="1"  <?php echo ($item['sex'
+      				          ]=='1')?'checked':''; ?>> 男 &nbsp;&nbsp;&nbsp;
+      				    <input type="radio" name='sex' value="0"  <?php echo ($item['display'
+      				          ]=='0')?'checked':''; ?>> 女
+      				</div>
+      	</div>
+		    <div class="form-group">
+          <label for="birth" class="col-sm-3 control-label">生日</label>
+            <div class="col-sm-6">
+              <input type="date" class="form-control"  id="birth" name="birth" min="1930-01-01" max="<?php echo date('Y-m-d', time()); ?>" value="<{$item.birth}>">
+            </div>
+         </div>
+         <div class="form-group">
+          <label for="address" class="col-sm-3 control-label">地址</label>
+            <div class="col-sm-6">
+              <input type="text" class="form-control"  id="address" name="address" value="<{$item.address}>">
+            </div>
+         </div>
+         <div class="form-group">
+          <label for="grade" class="col-sm-3 control-label">等级</label>
+            <div class="col-sm-6">
+              <input type="text" class="form-control"  id="grade" name="grade" value="<{$item.grade}>" disabled>
+            </div>
+         </div>
+         <div class="form-group">
+          <label for="addtime" class="col-sm-3 control-label">注册时间</label>
+            <div class="col-sm-6">
+              <input type="text" class="form-control"  id="addtime" name="addtime" value="<?php echo date('Y-m-d H:i:s', $item['addtime']); ?>" disabled>
+            </div>
+         </div>
+        <div class="form-group">
+          <label for="id" class="col-sm-3 control-label"></label>
+            <div class="col-sm-6">
+              <input type="hidden" class="form-control"  id="id" name="id" value="<{$item.id}>">
+            </div>
+         </div> 
+        <div class="form-group">
+          <label for="" class="col-sm-3 control-label"></label>
+          <div class="col-sm-3">
+            <button type="submit" id="submit" class="btn btn-warning">保 存</button>
+          </div>
+        </div>
+    <input type="hidden" name="p" value="<{$p}>">
+    <input type="hidden" name="search" value="<{$search}>">
+        </form>  
+				  
+	</div>
+  </div>
+</block>

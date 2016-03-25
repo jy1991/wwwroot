@@ -1,0 +1,71 @@
+<extend name="Layout/index" />
+<block name="breadcrumb">
+	<li>
+		<i class="icon-home home-icon"></i>
+		<a href="#">首页</a>
+	</li>
+	<li class="active">商品管理</li>
+</block>
+
+<block name="page_header">
+	<h1>
+		商品管理
+		<small>
+			<i class="icon-double-angle-right"></i>
+			 分配属性
+		</small>
+	</h1>
+</block>
+<block name="main_content">
+	<style>
+    th,td{text-align: center;}
+	</style>
+	<div class="row">
+		<div class="col-md-12">
+			<p>
+				查看 <span class="label label-success" style="font-size:16px; height:26px;"><{$product.name}></span> 属性
+			</p>
+			
+			<table class='table table-striped table-bordered table-hover'>
+			<thead>
+				<tr>
+					<th>属性名</th>
+					<th>属性值</th>
+					<th>赋值</th>
+				</tr>
+			</thead>
+			<tbody>
+				<volist name="list" id="vo">
+					<tr>
+						<td style="text-align:left;">
+							<input type="checkbox"
+                            <?php
+                             foreach($role as $k=>$v){
+                               if($vo['id']==$k){
+                               	 echo 'checked';
+                               }
+                             }
+                            ?>
+							>&nbsp;<{$vo.name}>
+						</td>
+					    <td>
+					    	<select class="form-control">
+					    	   <volist name="vo.value" id="vi">	
+                               <option value="<{$vi.id}>">
+                               	  <{$vi.value}>
+                               </option>
+                               </volist>
+					    	</select>
+					    </td>
+					    <td>
+                        <a href="<{:U('attrlist', array('pro_id'=>$product['id'],'attr_id'=>$vo['id'],'pro_name'=>$product['name']))}>" class="btn btn-warning">分配属性值</a>
+					    </td>
+				    </tr>
+				</volist>
+			</table>
+			<input type="hidden" name="p" value="<{$p}>">
+            
+	    </div>
+	</div>
+
+</block>
